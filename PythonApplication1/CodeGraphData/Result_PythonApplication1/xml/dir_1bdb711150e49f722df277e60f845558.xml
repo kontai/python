@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1bdb711150e49f722df277e60f845558" kind="dir">
+    <compoundname>D:/workspace/python/PythonApplication1</compoundname>
+    <innerdir refid="dir_ddb38c4e6446587a251716590272e4fa">D:/workspace/python/PythonApplication1/PythonApplication1</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/python/PythonApplication1/"/>
+  </compounddef>
+</doxygen>

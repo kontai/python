@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_python_application1_8py" kind="file">
+    <compoundname>PythonApplication1.py</compoundname>
+    <innerclass refid="class_python_application1_1_1_a1" prot="public">PythonApplication1::A1</innerclass>
+    <innernamespace refid="namespace_python_application1">PythonApplication1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_python_application1" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_python_application1_1_1_a1" kindref="compound">A1</ref>():</highlight></codeline>
+<codeline lineno="2" refid="class_python_application1_1_1_a1_1a8a314f221cb5002736ea5b4d3f43a9e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_python_application1_1_1_a1_1a8a314f221cb5002736ea5b4d3f43a9e4" kindref="member">__init__</ref>(self):</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__==</highlight><highlight class="stringliteral">&quot;__main__&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;pass!&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/python/PythonApplication1/PythonApplication1/PythonApplication1.py"/>
+  </compounddef>
+</doxygen>

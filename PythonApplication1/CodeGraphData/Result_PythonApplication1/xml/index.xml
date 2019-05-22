@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_python_application1_1_1_a1" kind="class"><name>PythonApplication1::A1</name>
+    <member refid="class_python_application1_1_1_a1_1a8a314f221cb5002736ea5b4d3f43a9e4" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="namespace_python_application1" kind="namespace"><name>PythonApplication1</name>
+  </compound>
+  <compound refid="_python_application1_8py" kind="file"><name>PythonApplication1.py</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_c3a5ef7890a3c3456067296ca28399b7" kind="dir"><name>D:/workspace/python</name>
+  </compound>
+  <compound refid="dir_ddb38c4e6446587a251716590272e4fa" kind="dir"><name>D:/workspace/python/PythonApplication1/PythonApplication1</name>
+  </compound>
+  <compound refid="dir_1bdb711150e49f722df277e60f845558" kind="dir"><name>D:/workspace/python/PythonApplication1</name>
+  </compound>
+  <compound refid="dir_3449265e6ef197aaea8d518e198bc538" kind="dir"><name>D:/workspace</name>
+  </compound>
+</doxygenindex>
