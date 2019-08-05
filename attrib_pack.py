@@ -32,7 +32,6 @@ class Washer:
         self.add_scour()
         print("Start wash...")
 
-
 if __name__ == "__main__":
     w = Washer()
     print(w.water)
