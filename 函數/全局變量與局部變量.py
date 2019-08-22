@@ -51,41 +51,41 @@
 
 # 如果函数的内容无global关键字，
 #   - 有声明局部变量
-        # NAME = ["产品经理","廖波湿"]
-        # def qupengfei():
-        #     NAME = "自己"
-        #     print('我要搞', NAME)
-        # qupengfei()
+# NAME = ["产品经理","廖波湿"]
+# def qupengfei():
+#     NAME = "自己"
+#     print('我要搞', NAME)
+# qupengfei()
 #   - 无声明局部变量
-        # NAME = ["产品经理","廖波湿"]
-        # def qupengfei():
-        #     NAME.append('XXOO')
-        #     print('我要搞', NAME)
-        # qupengfei()
+# NAME = ["产品经理","廖波湿"]
+# def qupengfei():
+#     NAME.append('XXOO')
+#     print('我要搞', NAME)
+# qupengfei()
 
 # 如果函数的内容有global关键字
 #   - 有声明局部变量
-        # NAME = ["产品经理","廖波湿"]
-        # def qupengfei():
-        #     global NAME
-        #     NAME = "自己"
-        #     print('我要搞', NAME)
-        # qupengfei()
-        # 错误示例
-        # NAME = ["产品经理","廖波湿"]
-        # def qupengfei():
-        #     NAME = "自己"
-        #     global NAME
-        #     print('我要搞', NAME)
-        # qupengfei()
+# NAME = ["产品经理","廖波湿"]
+# def qupengfei():
+#     global NAME
+#     NAME = "自己"
+#     print('我要搞', NAME)
+# qupengfei()
+# 错误示例
+# NAME = ["产品经理","廖波湿"]
+# def qupengfei():
+#     NAME = "自己"
+#     global NAME
+#     print('我要搞', NAME)
+# qupengfei()
 #   - 无声明局部变量
-        # NAME = ["产品经理","廖波湿"]
-        # def qupengfei():
-        #     global NAME
-        #     NAME = ["阿毛"]
-        #     NAME.append('XXOO')
-        #     print('我要搞', NAME)
-        # qupengfei()
+# NAME = ["产品经理","廖波湿"]
+# def qupengfei():
+#     global NAME
+#     NAME = ["阿毛"]
+#     NAME.append('XXOO')
+#     print('我要搞', NAME)
+# qupengfei()
 
 ######## 全局变量变量名大写
 ######## 局部变量变量名小写
@@ -142,14 +142,17 @@
 
 name = "刚娘"
 
+
 def weihou():
     name = "陈卓"
+
     def weiweihou():
-        nonlocal name   # nonlocal，指定上一级变量，如果没有就继续往上直到找到为止
+        nonlocal name  # nonlocal，指定上一级变量，如果没有就继续往上直到找到为止
         name = "冷静"
 
     weiweihou()
     print(name)
+
 
 print(name)
 weihou()
