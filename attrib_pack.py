@@ -11,6 +11,10 @@ class Washer:
     def water(self):
         return self._water
 
+    @property
+    def scour(self):
+        return self._scour
+
     @water.setter
     def water(self, water):
         if 0 < water < 300:
@@ -18,8 +22,9 @@ class Washer:
         else:
             print("Failure")
 
+    @scour.setter
     def set_scour(self, scour):
-        self.scour = scour
+        self._scour = scour
 
     def add_water(self):
         print('Add water:', self.water)
@@ -38,3 +43,4 @@ if __name__ == "__main__":
     print(w.water)
     w.water = 200
     print(w.water)
+    w.add_scour()
