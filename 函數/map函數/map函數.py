@@ -73,3 +73,6 @@ print('传的是有名函数', list(map(reduce_one, num_l)))
 
 msg = 'linhaifeng'
 print(list(map(lambda x: x.upper(), msg)))
+
+print(pow(3,4))
+print(list(map(pow,[1,2,3],[2,3,4])))
