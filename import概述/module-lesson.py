@@ -11,7 +11,8 @@
 from web.web1.web3 import cal
 
 
-cal.add(3,8)
+print(cal.add(3,8))
+print(cal.__name__,cal.__file__,sep='\n')
 
 
 
