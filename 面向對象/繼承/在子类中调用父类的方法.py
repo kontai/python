@@ -24,3 +24,4 @@ line13=Subway('北京地铁','10km/s',1000000000,'电',13)
 line13.show_info()
 
 line13.run()
+
