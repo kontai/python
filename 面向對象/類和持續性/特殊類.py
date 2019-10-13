@@ -2,7 +2,7 @@
 #  特殊類.py
 #
 
-from 面向對象.類基本實現.PersonClass import Person
+from 面向對象.類和持續性.PersonClass import Person
 
 bob=Person('Bob Smith')
 print(bob)
