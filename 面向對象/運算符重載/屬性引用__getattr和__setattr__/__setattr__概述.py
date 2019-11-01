@@ -8,7 +8,7 @@
     在__setattr__中對任何self屬性作賦值，都會再調用__setattr__，導致了無窮遞歸循環(直至堆棧溢出異常)。
 
     **如果要使用這個方法，要確保是通過對屬性字典作索引運算來賦值任何實例屬性
-      也就是說，是使用self.__dict__['name']=x , 而不是self.name=x
+      也就是說，是使用self.__dict__['name']=x , 而不是self.name=x (調用self.attr就調用__setattr__)
 """
 
 
