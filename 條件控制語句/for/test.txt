@@ -1,0 +1,12 @@
+• 2018-10-30: Distribution Release: Manjaro Linux 18.0
+ • 2017-12-31: Distribution Release: Manjaro Linux 17.1.0
+ • 2017-09-03: Distribution Release: Manjaro Linux 17.0.3
+ • 2017-06-26: Distribution Release: Manjaro Linux 17.0.2
+ • 2017-03-07: Distribution Release: Manjaro Linux 17.0
+ • 2016-10-31: Distribution Release: Manjaro Linux 16.10
+ • 2016-09-01: Distribution Release: Manjaro Linux 16.08
+ • 2016-06-06: Distribution Release: Manjaro Linux 16.06
+ • 2016-04-03: Development Release: Manjaro Linux 16.06 Pre 2
+ • 2016-03-06: Development Release: Manjaro Linux 16.06 Pre 1
+ • 2015-12-31: Distribution Releases: Manjaro Linux 15.12 "i3", "bspwm"
+ • 2015-12-23: Distribution Release: Manjaro Linux 15.12
