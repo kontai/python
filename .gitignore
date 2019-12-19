@@ -49,6 +49,10 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
+=======
+*.py,cover
+>>>>>>> 1218
 .hypothesis/
 .pytest_cache/
 
@@ -60,6 +64,10 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+<<<<<<< HEAD
+=======
+db.sqlite3-journal
+>>>>>>> 1218
 
 # Flask stuff:
 instance/
@@ -91,8 +99,17 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
+<<<<<<< HEAD
 # celery beat schedule file
 celerybeat-schedule
+=======
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+>>>>>>> 1218
 
 # SageMath parsed files
 *.sage.py
