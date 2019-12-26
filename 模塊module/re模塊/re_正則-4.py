@@ -9,5 +9,5 @@ print(ret.group())  # 23/com
 print(ret.group('id'))  # 23
 
 # 元字符之｜
-ret=re.search('(ab)|\d','rabhdg8sd')
-print(ret.group())#ab
+ret = re.search('(ab)|\d', 'rabhdg8sd')
+print(ret.group())  # ab

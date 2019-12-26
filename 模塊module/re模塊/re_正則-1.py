@@ -13,10 +13,10 @@ print(ret)  # ['awwwn']
 ret = re.findall('a...n$', 'alvinhelloawwwn')
 print(ret)  # ['awwwn']
 
-ret = re.findall('abc*', 'abcccc')  # 贪婪匹配[0,+oo]
+ret = re.findall('abc*', 'abcccc')  # 贪婪匹配[0,無窮次]
 print(ret)  # ['abcccc']
 
-ret = re.findall('abc+', 'abccc')  # [1,+oo]
+ret = re.findall('abc+', 'abccc')  # [1,無窮次]
 print(ret)  # ['abccc']
 
 ret = re.findall('abc?', 'abccc')  # [0,1]
@@ -29,7 +29,7 @@ print(ret)  # ['abccc'] 贪婪匹配
 ret = re.findall('abc*?', 'abcccccc')
 print(ret)  # ['ab']
 ret = re.findall('abc+?', 'abcccccc')
-print(ret)  # ['ab']
+print(ret)  # ['abc']
 
 #12+(34*6+2-5*(2-1))  ----   提出最裡面的括號(2-1)
 #
@@ -43,4 +43,5 @@ print(ret)  # ['ab']
 #
 #
 #
-re.findall("\([^()]*\)","12+(34*6+2-5*(2-1))")
+ret=re.findall("\([^()]*\)","12+(34*6+2-5*(2-1))")
+print(ret)

@@ -26,9 +26,9 @@ ret = re.findall(r'I\b', 'I am LIST')
 print(ret)  # ['I']
 
 # -----------------------------eg1:
-ret = re.findall('c\l', 'abc\le')
+# ret = re.findall('c\l', 'abc\le')
 print(ret)  # []
-ret = re.findall('c\\l', 'abc\le')
+# ret = re.findall('c\\l', 'abc\le')
 print(ret)  # []
 ret = re.findall('c\\\\l', 'abc\le')
 print(ret)  # ['c\\l']
