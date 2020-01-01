@@ -1,28 +1,28 @@
-# import configparser
-#
-# config = configparser.ConfigParser()     #config={}
-#
-#
-#
-#
-# config["DEFAULT"] = {'ServerAliveInterval': '45',
-#                      'Compression': 'yes',
-#                      'CompressionLevel': '9'}
-#
-#
-#
-# config['bitbucket.org'] = {}
-# config['bitbucket.org']['User'] = 'hg'
-#
-# config['topsecret.server.com'] = {}
-# topsecret = config['topsecret.server.com']
-# topsecret['Host Port'] = '50022'  # mutates the parser
-# topsecret['ForwardX11'] = 'no'  # same here
-#
-#
-#
-# with open('example.ini', 'w') as f:
-#     config.write(f)
+import configparser
+
+config = configparser.ConfigParser()     #config={}
+
+
+
+
+config["DEFAULT"] = {'ServerAliveInterval': '45',
+                     'Compression': 'yes',
+                     'CompressionLevel': '9'}
+
+
+
+config['bitbucket.org'] = {}
+config['bitbucket.org']['User'] = 'hg'
+
+config['topsecret.server.com'] = {}
+topsecret = config['topsecret.server.com']
+topsecret['Host Port'] = '50022'  # mutates the parser
+topsecret['ForwardX11'] = 'no'  # same here
+
+
+
+with open('example.ini', 'w') as f:
+    config.write(f)
 
 
 #------------------------------------------------------增删改查、
@@ -47,7 +47,8 @@ config.read('example.ini')
 #
 #
 # for key in config['bitbucket.org']:
-#     print(key)
+#     print(key)    #預設[DEFAUL]內容也會打印出來（無論是否指定）
+#
 
 #
 #
@@ -60,11 +61,11 @@ config.read('example.ini')
 # #---------------------------------------------删,改,增(config.write(open('i.cfg', "w")))
 #
 #
-config.add_section('yuan')
-config.set('yuan','k1','11111')
+config.add_section('yuan')      #增加塊
+config.set('yuan','k1','11111') #塊,鍵,值
 
-config.remove_section('topsecret.server.com')
-config.remove_option('bitbucket.org','user')
+config.remove_section('topsecret.server.com')  #移除塊
+config.remove_option('bitbucket.org','user')   #移除值d11
 #
 
 config.write(open('i.cfg', "w"))

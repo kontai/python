@@ -13,8 +13,8 @@
     Port = 50022
     ForwardX11 = no
 
-如果想用python生成一个这样的文档怎么做呢？
-
+   如果想用python生成一个这样的文档怎么做呢？
+  ````   
     import configparser
      
     config = configparser.ConfigParser()
@@ -32,4 +32,4 @@
 
     with open('example.ini', 'w') as configfile:
        config.write(configfile)
-
+````
