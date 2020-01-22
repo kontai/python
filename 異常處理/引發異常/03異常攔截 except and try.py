@@ -15,10 +15,19 @@ if __name__ == '__main__':
     # except:
     #     print("empty Except block")
 
-    #功能相似於空的except,但能夠避免系統退出相關所觸發的異常。
+    # 功能相似於空的except,但能夠避免系統退出相關所觸發的異常。
     except Exception:
         print("Like empty Except block,but Ignore system break error")
 
     # else當try未產生異常時執行
     else:
         print("goodEnd")
+    # try:
+    #     ...run code...
+    # 如果將此判斷放置於try語句裡,有可能引發另一個異常
+    # 這裡如果會造成IndexError異常, 那就不是我們想要的(要判斷try語句所造成的異常）
+    #     ...no exception occurred...
+    # except indexError:
+    #     ...handle exception...
+
+

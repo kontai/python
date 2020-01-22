@@ -1,0 +1,6 @@
+a,b,c
+d,e,f
+format: test file 3   3.140000000
+<_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+test file output
+12345
