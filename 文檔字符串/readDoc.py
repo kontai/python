@@ -11,3 +11,5 @@ print(docstr.spam.method.__doc__)
 
 print('\n', '*' * 50, '\n')
 help(docstr)
+
+import numpy
