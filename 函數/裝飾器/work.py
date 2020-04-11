@@ -3,6 +3,7 @@ import time
 def timmer(func):
     def wrap(*args,**kwargs):
         start_time=time.time()
+        print(args)
         res=func(*args,**kwargs)
         stop_time=time.time()
         print("運行時間%s"%(stop_time-start_time))
@@ -19,9 +20,10 @@ def test(name,age):
 def test2(name,age,gender):
     time.sleep(3)
     print("test函式運行完畢！name={%s},age={%s},gender={%s}"%(name,age,gender))
-    return "test() return..."
+    return "test2() return..."
 #res=timmer(test)
 
 res=test('kontai',18,)
+print(res)
 res=test2('kontai',18,'male')
 print(res)

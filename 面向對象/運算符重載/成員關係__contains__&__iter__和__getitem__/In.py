@@ -29,9 +29,9 @@ class Iters:
         self.ix += 1
         return item
 
-    # def __contains__(self, x):
-    #     print("contains: ", end=' ')
-    #     return x in self.data
+    def __contains__(self, x):
+        print("contains: ", end=' ')
+        return x in self.data
 
 
 if __name__ == '__main__':

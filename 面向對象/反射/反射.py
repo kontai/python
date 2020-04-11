@@ -1,3 +1,6 @@
+from time import sleep
+
+
 class BlackMedium:
     feture='Ugly'
     def __init__(self,name,addr):
@@ -12,7 +15,14 @@ class BlackMedium:
 
 
 print(hasattr(BlackMedium,'feture'))
-getattr()
+
+print(BlackMedium.__dict__)
+
+for i in list(dir(BlackMedium)):
+    if(hasattr(BlackMedium,i) and isinstance(i,str)):
+        # print("getattr: "+getattr(BlackMedium,i))
+        print(i.__doc__)
+# getattr(BlackMedium,"")
 #
 # b1=BlackMedium('万成置地','天露园')
 # b1.name--->b1.__dic__['name']
