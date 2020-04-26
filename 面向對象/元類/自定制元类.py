@@ -1,6 +1,7 @@
+#__*__encode:utf-8__*__
 class MyType(type):
     def __init__(self,a,b,c):
-        print('元类的构造函数执行')
+        print('元類的構造函數執行')
         # print(a)
         # print(b)
         # print(c)
