@@ -1,0 +1,5 @@
+
+`python:S1192"HDefine a constant instead of duplicating this literal ':action' 4 times.(έξ
+Jpython:S1481",Remove the unused local variable "response".(ς οΤώÿÿÿÿ
+fpython:S107ο"NMethod "upload_file" has 8 parameters, which is greater than the 7 authorized.(ώΟκ
+mpython:S3776υ"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(ΕΉΙ±

@@ -1,0 +1,6 @@
+
+apython:S101
+"JRename class "adder" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(æÄ«Õ
+hpython:S1010"LRename class "addboth" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ãÆê³üÿÿÿÿ
+gpython:S101#"KRename class "addstr" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ÝÁ²…üÿÿÿÿ
+hpython:S101"LRename class "addrepr" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(‰ÙÚ¨øÿÿÿÿ

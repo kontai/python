@@ -1,0 +1,6 @@
+
+bpython:S101"FRename class "A" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ÒàÉşÿÿÿÿ
+bpython:S101"FRename class "B" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(å¢—Şùÿÿÿÿ
+]python:S101"FRename class "C" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(¤Ûš©
+]python:S101"FRename class "D" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(«œ¿®
+spython:S41432"[Verify this is the key that was intended; a value has already been saved for it on line 49.(âÊ†Ê

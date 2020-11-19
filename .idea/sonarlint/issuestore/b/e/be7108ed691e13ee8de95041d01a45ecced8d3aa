@@ -1,0 +1,8 @@
+
+epython:S1542"MRename function "Init" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ò¡½û
+mpython:S1542"PRename function "Wrapper" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(øÊ´ßúÿÿÿÿ
+;python:S125"Remove this commented out code.(î¦Ç€þÿÿÿÿ
+ipython:S116"MRename this field "Itype" to match the regular expression ^[_a-z][_a-z0-9]*$.(Šµ÷’ÿÿÿÿÿ
+mpython:S117"QRename this parameter "Itype" to match the regular expression ^[_a-z][a-z0-9_]*$.(’´¾µûÿÿÿÿ
+dpython:S1763"GDelete this unreachable code or refactor the code to make it reachable.(î»›Òûÿÿÿÿ
+;python:S125$"Remove this commented out code.(—ÔËñøÿÿÿÿ

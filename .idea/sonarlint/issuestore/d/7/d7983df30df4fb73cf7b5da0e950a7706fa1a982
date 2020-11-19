@@ -1,0 +1,6 @@
+
+Wpython:S38272"Aself is not defined. Change its name or define it before using it(à¼d
+7python:S57191"Add a "self" or class parameter(æÀãè
+gpython:S100"KRename method "Area" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ï¾Û±ùÿÿÿÿ
+cpython:S9306"LRemove 1 unexpected arguments; 'just_print' expects -1 positional arguments.(­Æø
+;python:S125<"Remove this commented out code.(ƒ¨†ÿÿÿÿÿ
