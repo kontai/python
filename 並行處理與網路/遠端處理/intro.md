@@ -1,0 +1,5 @@
+[分散式計算](https://zh.wikipedia.org/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97 "分散式計算")中，**遠端程序呼叫**（英語：**R**emote **P**rocedure **C**all，**RPC**）是一個電腦通信[協定](https://zh.wikipedia.org/wiki/%E7%B6%B2%E7%B5%A1%E5%82%B3%E8%BC%B8%E5%8D%94%E8%AD%B0 "網路傳輸協定")。該協定允許執行於一台電腦的[程式](https://zh.wikipedia.org/wiki/%E7%A8%8B%E5%BA%8F "程式")呼叫另一個[位址空間](https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4 "位址空間")（通常為一個開放網路的一台電腦）的[子程式](https://zh.wikipedia.org/wiki/%E5%AD%90%E7%A8%8B%E5%BA%8F "子程式")，而程式設計師就像呼叫本地程式一樣，無需額外地為這個互動作用編程（無需關注細節）。RPC是一種伺服器-客戶端（Client/Server）模式，經典實現是一個通過**傳送請求-接受回應**進行資訊互動的系統。
+
+如果涉及的軟體採用[物件導向程式設計](https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B "物件導向程式設計")，那麼遠端程序呼叫亦可稱作**遠端呼叫**或**遠端方法呼叫**，例：[Java RMI](https://zh.wikipedia.org/wiki/Java_RMI "Java RMI")。
+
+RPC是一種[行程間通訊](https://zh.wikipedia.org/wiki/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1 "行程間通訊")的模式，程式分布在不同的[位址空間](https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4 "位址空間")里。如果在同一主機里，RPC可以通過不同的虛擬位址空間（即便使用相同的實體位址）進行通訊，而在不同的主機間，則通過不同的實體位址進行互動。許多技術（通常是不相容）都是基於這種概念而實現的。

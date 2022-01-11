@@ -1,7 +1,7 @@
 
-;python:S125%"Remove this commented out code.(‘ð–Óÿÿÿÿÿ
-dpython:S100"HRename method "m" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÁÞªêüÿÿÿÿ
-]python:S101"FRename class "C" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(¬åÊÿ
 Bpython:S1481"%Remove the unused local variable "X".(ÐÇïåÿÿÿÿÿ
-gpython:S1542"JRename function "f" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(÷‘õàúÿÿÿÿ
+]python:S101"FRename class "C" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(¬åÊÿ
 gpython:S1542"JRename function "g" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ù¥³çþÿÿÿÿ
+dpython:S100"HRename method "m" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÁÞªêüÿÿÿÿ
+gpython:S1542"JRename function "f" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(÷‘õàúÿÿÿÿ
+;python:S125%"Remove this commented out code.(‘ð–Óÿÿÿÿÿ

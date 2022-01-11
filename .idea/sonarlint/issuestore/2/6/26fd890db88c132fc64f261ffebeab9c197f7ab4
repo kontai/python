@@ -1,6 +1,0 @@
-
-ˆpython:S1542Ç"jRename function "message_about_scripts_not_on_PATH" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(÷‡‹±ýÿÿÿÿ
-spython:S107Î"VFunction "move_wheel_files" has 11 parameters, which is greater than the 7 authorized.(Õ…Ã¦þÿÿÿÿ
-rpython:S3776Í"TRefactor this function to reduce its Cognitive Complexity from 75 to the 15 allowed.( è„½ýÿÿÿÿ
-8python:S3626“"Remove this redundant continue.(À–¬ˆ
-rpython:S3776£"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(µ¼ÍÎüÿÿÿÿ

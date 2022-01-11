@@ -1,26 +1,19 @@
-# thisset = {"apple", "banana", "cherry"}
-# mylist = ["kiwi", "orange"]
-#
-# v=mylist+list(thisset)
-# v.append("2")
-# f=list(x.title() if x.isalnum() else x for x in v)
-# f.sort()
-# print(f)
+a = "abc,def"
+b = tuple(a.split(','))
+print(b)
 
-'''
-i=1
-while(i<6):
-    print(i)
-    if(i==3):
-        pass
-        # break
-    i+=1
-else:
-    print("i is no longer less than 3"```
-'''
+str1 = '&'.join(b)
+print(b, str1)
 
-li=[]
-for i in range(1,100,2):
-    li.append(i)
-print(li)
-print(str.split(str(li)))
+# 利用逗點創建tuple
+c = a, b
+print(c)
+
+d = "anc", "def"
+print(d, type(d))
+
+list1=[["abc","kontai","1"],"de"]
+list2=["abc","def","ghi"]
+# print(1 in list1[0])
+joined='-'.join(list1[0])
+print(joined)

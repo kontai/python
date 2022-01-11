@@ -1,0 +1,5 @@
+a=bin(5)
+b=bin(1)
+c=bytes([1,2])
+print(c)
+# print("%x , %x"%(bin(5),bin(1)))

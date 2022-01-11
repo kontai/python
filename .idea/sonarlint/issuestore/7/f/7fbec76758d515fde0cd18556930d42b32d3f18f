@@ -1,9 +1,10 @@
 
-jpython:S1542"KRename function "pf" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÔÏ¹”8ÿ®²ø£-
-Bpython:S125."Remove this commented out code.(ÿ—şÿÿÿÿ8ÿ®²ø£-
-=python:S125"Remove this commented out code.(ƒ‡âÈ8ÿ®²ø£-
-Bpython:S125"Remove this commented out code.(ıÑ¯ƒúÿÿÿÿ8ÿ®²ø£-
+=python:S1252"Remove this commented out code.( ¾õô8ÿ®²ø£-
 Bpython:S125
 "Remove this commented out code.(©í§˜ûÿÿÿÿ8ÿ®²ø£-
-=python:S125+"Remove this commented out code.( ¾õô8ÿ®²ø£-
-Bpython:S125("Remove this commented out code.(Ş†Üùúÿÿÿÿ8ÿ®²ø£-
+jpython:S1542#"KRename function "pf" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÔÏ¹”8ÿ®²ø£-
+Bpython:S125/"Remove this commented out code.(Ş†Üùúÿÿÿÿ8ÿ®²ø£-
+Bpython:S1255"Remove this commented out code.(ÿ—şÿÿÿÿ8ÿ®²ø£-
+=python:S125"Remove this commented out code.(ƒ‡âÈ8ÿ®²ø£-
+Bpython:S125"Remove this commented out code.(ıÑ¯ƒúÿÿÿÿ8ÿ®²ø£-
+=python:S125E"Remove this commented out code.(Şä¡ï8úÓê.
