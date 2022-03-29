@@ -1,7 +1,0 @@
-
-hpython:S107T"LMethod "__init__" has 13 parameters, which is greater than the 7 authorized.( Ðàþüÿÿÿÿ
-epython:S1134Þ"LTake the required action to fix the issue indicated by this "FIXME" comment.(Ë™ËÆ
-ppython:S107Ý"SMethod "move_wheel_files" has 8 parameters, which is greater than the 7 authorized.( Ðàþüÿÿÿÿ
-mpython:S3776…"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(‚ºþ÷
-gpython:S107Å"JMethod "install" has 9 parameters, which is greater than the 7 authorized.( Ðàþüÿÿÿÿ
-epython:S1134“"LTake the required action to fix the issue indicated by this "FIXME" comment.(¼ßºÖ

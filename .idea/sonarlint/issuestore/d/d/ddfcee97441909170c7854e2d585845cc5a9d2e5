@@ -1,22 +1,0 @@
-
-“python:S1192Á"zDefine a constant instead of duplicating this literal "Can't perform this operation for unregistered loader type" 3 times.(—İÑè
-ipython:S1192Ê"KDefine a constant instead of duplicating this literal '.dist-info' 3 times.(ºøÙŸıÿÿÿÿ
-Mpython:S1066ö"/Merge this if statement with the enclosing one.(İµ´îüÿÿÿÿ
-tpython:S117â"WRename this parameter "moduleOrReq" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü¬³ ùÿÿÿÿ
-mpython:S3776¡"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(©±…ò
-xpython:S117¶"[Rename this local variable "provDarwin" to match the regular expression ^[_a-z][a-z0-9_]*$.(´€¹ùÿÿÿÿ
-ppython:S117¯"XRename this local variable "provMac" to match the regular expression ^[_a-z][a-z0-9_]*$.(åÆ
-tpython:S117­"WRename this local variable "reqMac" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü§íúşÿÿÿÿ
-rpython:S3776Ë"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(şŞ×³ıÿÿÿÿ
-wpython:S1186ë"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Áû¹Çûÿÿÿÿ
-bpython:S3358"IExtract this nested conditional expression into an independent statement.(Ãˆ€Ó
-gpython:S3358 "IExtract this nested conditional expression into an independent statement.(¨ÿşßøÿÿÿÿ
-tpython:S117"WRename this parameter "packageName" to match the regular expression ^[_a-z][a-z0-9_]*$.(’¥æÕüÿÿÿÿ
-tpython:S117Ğ"WRename this parameter "packageName" to match the regular expression ^[_a-z][a-z0-9_]*$.(‹ù¡Ìúÿÿÿÿ
-opython:S117ş"WRename this parameter "packageName" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ññú
-opython:S117’"WRename this parameter "packageName" to match the regular expression ^[_a-z][a-z0-9_]*$.(š¸±Î
-opython:S117Â"WRename this parameter "packageName" to match the regular expression ^[_a-z][a-z0-9_]*$.(Õİ¹£
-hpython:S107†"KMethod "__init__" has 8 parameters, which is greater than the 7 authorized.(¤á Ğøÿÿÿÿ
-gpython:S1854™"NRemove this assignment to local variable 'new_extra'; the value is never used.(ÿ×ø
-6python:S3626ø"Remove this redundant return.(ÙãŞŸ
-mpython:S3776¶"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(Óï–Ô
