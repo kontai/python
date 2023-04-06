@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "home2.html" %}
+    <meta charset="UTF-8">
+    <title>Student List</title>
+</head>
+<body>
+    {% block content %}
+{#        <h1>{{ block.super }}</h1>#}
+        {% for s in stu %}
+            {{ s }}
+            <br>
+        {% endfor %}
+    {% endblock %}
+</body>
+</html>

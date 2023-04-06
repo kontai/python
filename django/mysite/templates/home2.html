@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    {% block cdd %}
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .nav {
+                line-height: 40px;
+                width: 100%;
+                background-color: #0c80ba;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .menu, content {
+                float: left;
+            }
+
+            .menu {
+                width: 10%;
+                min-height: 350px;
+                overflow: auto;
+                background-color: lightgray;
+            }
+
+            .manage {
+                text-align: center;
+                padding: 20px 0px;
+                margin: 20px 0px;
+            }
+
+            .content {
+                width: 90%;
+                min-height: 600px;
+                text-align: center;
+            {#color: #0c80ba;#} font-size: 16px;
+                float: right;
+            }
+        </style>
+
+    {% endblock %}
+</head>
+<body>
+    <div class="outer">
+        <div class="nav">
+            title
+        </div>
+
+        <div class="menu">
+            <div class="student manage">
+                <a href="student">學生列表</a>
+            </div>
+            <div class="teacher manage">
+                <a href="">老師列表</a></div>
+            <div class="site manage">
+                <a href="">網站導覽</a></div>
+        </div>
+
+        <div class="content">
+            {% block content %}
+                Main
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>
