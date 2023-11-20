@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="django" name="Django">
       <configuration>
-        <option name="rootFolder" value="" />
+        <option name="rootFolder" value="$MODULE_DIR$/django" />
         <option name="settingsModule" value="" />
         <option name="manageScript" value="" />
         <option name="environment" value="&lt;map/&gt;" />
@@ -19,7 +19,7 @@
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv_Ana" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (python3_7)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (base)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="R Skeletons" level="application" />
     <orderEntry type="library" name="R User Library" level="project" />

@@ -58,8 +58,3 @@ for i in list(dir(BlackMedium)):
 # del b1.sb1
 # delattr(b1,'sb')
 # print(b1.__dict__)
-
-
-
-
-
