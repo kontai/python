@@ -2110,31 +2110,11 @@ D
 練習/demo1204/3.py,c\b\cb6ff6219234759b2fc9cf7c2b845390365aa49c
 D
 練習/demo1204/4.py,9\0\90fddbba8597ac62983b71463a89b0f5350ff128
-B
-Web/HTML/test.html,1\1\1194142fb1d3897fe7885432ac80ecc55727d4fd
 L
 SQL/sqlAlchemyDemo/level2.py,a\2\a2efbdbded0cc333f6773ca75ab0b034f409d46d
 L
 SQL/sqlAlchemyDemo/level1.py,4\1\41880379e8e583ba71bf65d43406c4001fe3ca68
 E
 SQL/mysqlDemo/test.py,d\0\d05b46f567273209e1facc5a07735484c28ff904
-P
- Web/django/mysite/mysite/wsgi.py,3\1\317011c1ce56b48d99882ca47b45ccf5920e9efc
-R
-"Web/django/mysite/blog/__init__.py,7\a\7ad4d7188f70ba824c88b66d85a3d768d206119e
-T
-$Web/django/mysite/mysite/__init__.py,4\b\4b181192b0c69602ae7cc67a34f6474ea3c7be72
-O
-Web/django/mysite/blog/admin.py,8\9\89484a5833c5a267a4dab3e0dccb9f865545e8ff
-N
-Web/django/mysite/blog/apps.py,8\e\8e71009df784588fbbb42f26c320c7d0762e4b18
-P
- Web/django/mysite/blog/models.py,c\f\cf36b47f02f526894b90871cad1325e9a6add07f
-P
- Web/django/mysite/mysite/asgi.py,9\2\92e67556cc3368c16c05244a823219aca07a5820
-K
-Web/django/mysite/manage.py,8\d\8dda1b0723b8db4e655b88c8498ece761a84e407
-P
- Web/django/mysite/mysite/urls.py,6\d\6d713b1492b31e3a353d2aa2a762a5a336da7ad1
-O
-Web/django/mysite/blog/tests.py,c\a\ca6cdd95512702fc167f8e0cf303290685c08bc9
+Q
+!books/LearnPython/ch4/dic_demo.py,8/5/8556764040e5649f654ced4ae33e3d33cfaef58d

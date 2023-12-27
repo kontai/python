@@ -27,6 +27,9 @@
   <component name="PyDocumentationSettings">
     <option name="renderExternalDocumentation" value="true" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="a8c7b170-2461-43f2-8068-0ee60e07e478" />
+  </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
     <option name="TEMPLATE_FOLDERS">
