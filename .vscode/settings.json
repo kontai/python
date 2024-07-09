@@ -1,4 +1,5 @@
 {
     "python.pythonPath": "C:\\Users\\kontai\\anaconda3\\python.exe",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "workbench.colorCustomizations": {}
 }

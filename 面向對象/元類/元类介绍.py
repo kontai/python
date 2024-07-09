@@ -15,19 +15,24 @@
 class type(name, bases, dict)
 '''
 
+
 class Foo:
     def __init__(self):
         pass
 
+
 print(Foo)
 print(Foo.__dict__)
+
 
 def __init__(self, name, age):
     self.name = name
     self.age = age
 
+
 def test(self):
     print('=====>')
+
 
 FFo = type('FFo', (object,), {'x': 1, '__init__': __init__, 'test': test})
 print(FFo)
@@ -36,3 +41,4 @@ print(FFo.__dict__)
 f1 = FFo('alex', 18)
 print(f1.name)
 f1.test()
+
