@@ -1,0 +1,1 @@
+Testing file IO\nLearning Python, 6E\nPython 3.12\n
