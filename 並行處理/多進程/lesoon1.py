@@ -17,6 +17,7 @@ class MyProcess(Process):
 
 if __name__ == '__main__':
     p_list=[]
+    for
     for i in range(10):
         p = MyProcess(i)
         #p.daemon=True
