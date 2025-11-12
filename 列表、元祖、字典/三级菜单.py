@@ -7,16 +7,16 @@
 '''
 menu = {
     "臺北市": {
-        "中正區": {"光復里":''},
-        "大同區": {"至聖里":''}
+        "中正區": {"光復里": ''},
+        "大同區": {"至聖里": ''}
     }
     , "新北市": {
-        "板橋區":"" ,
-        "新莊區":""
+        "板橋區": "",
+        "新莊區": ""
     }
     , "桃園市": {
         "桃園區": "",
-        "中壢區":""
+        "中壢區": ""
     }
     , "臺中市": {
         "北屯區": "",
@@ -27,12 +27,10 @@ menu = {
 path = []
 
 while True:
-    temp={}
+    temp = {}
     print("當前所在")
-    for num,i in enumerate(menu):
-        temp[num]=i
-        print(num,i)
-
-
+    for num, i in enumerate(menu):
+        temp[num] = i
+        print(num, i)
 
     break

@@ -5,11 +5,10 @@ from config import settings
 
 
 def get_logger(card_num, struct_time):
-
     if struct_time.tm_mday < 23:
-        file_name = "%s_%s_%d" %(struct_time.tm_year, struct_time.tm_mon, 22)
+        file_name = "%s_%s_%d" % (struct_time.tm_year, struct_time.tm_mon, 22)
     else:
-        file_name = "%s_%s_%d" %(struct_time.tm_year, struct_time.tm_mon+1, 22)
+        file_name = "%s_%s_%d" % (struct_time.tm_year, struct_time.tm_mon + 1, 22)
 
     file_handler = logging.FileHandler(
         os.path.join(settings.USER_DIR_FOLDER, card_num, 'record', file_name),

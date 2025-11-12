@@ -3,7 +3,7 @@
 
 def flower(low, high):
     for i in range(low, high):
-        if ((i // 100)**3 + ((i % 100) // 10)**3 + (i % 10)**3 ) == i:
+        if ((i // 100) ** 3 + ((i % 100) // 10) ** 3 + (i % 10) ** 3) == i:
             print(i)
 
 

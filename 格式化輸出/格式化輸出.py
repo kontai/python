@@ -15,8 +15,7 @@ print("PI=%06.3f" % pi)
 print("*", end=" ")
 print("*")
 
-print("*", end="-" )
+print("*", end="-")
 print("*")
 
 '{0}{1:.2f}'.format('Pi = ', 3.1415)
-

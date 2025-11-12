@@ -16,22 +16,21 @@ while True:
     for item, i in enumerate(msg_dic.items()):
         print(item, i[0], ' $', i[1])
         temp.append(i[1])
-    print("購買總金額: %s"%total_price)
+    print("購買總金額: %s" % total_price)
     shop_list = input('請輸入購買項目(\'q\' to exit)=>').strip()
-    if(shop_list=='q' or shop_list == 'Q'):
+    if (shop_list == 'q' or shop_list == 'Q'):
         break
-    if (int(shop_list) > len(temp)-1 or int(shop_list)<0):
+    if (int(shop_list) > len(temp) - 1 or int(shop_list) < 0):
         print("error")
         continue
     shop_list = int(shop_list)
 
     shop_num = input('請輸入購買數量(\'q\' to exit)=>').strip()
-    if(shop_list=='q' or shop_list == 'Q'):
+    if (shop_list == 'q' or shop_list == 'Q'):
         break
     if (shop_num.isdecimal()):
-        shop_num=int(shop_num)
+        shop_num = int(shop_num)
         total_price += int(temp[shop_list] * shop_num)
     else:
         print("wrong number...")
         continue
-

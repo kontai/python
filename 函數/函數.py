@@ -5,6 +5,8 @@ y->7
 x=3
 y->7
 '''
+
+
 # def test(x):
 #     '''
 #     2*x+1
@@ -26,7 +28,7 @@ y->7
 # a=test()
 # print(a)
 
-#过程：就是没有返回值的函数
+# 过程：就是没有返回值的函数
 
 
 # def test01():
@@ -58,11 +60,6 @@ y->7
 # print(t4)
 
 
-
-
-
-
-
 # def calc(x,y): #x=2,y=3
 #     res=x**y
 #     return x
@@ -81,13 +78,13 @@ y->7
 #     print(y)
 #     print(z)
 
-#位置参数，必须一一对应，缺一不行多一也不行
+# 位置参数，必须一一对应，缺一不行多一也不行
 # test(1,2,3)
 
-#关键字参数，无须一一对应，缺一不行多一也不行
+# 关键字参数，无须一一对应，缺一不行多一也不行
 # test(y=1,x=3,z=4)
 
-#位置参数必须在关键字参数左边
+# 位置参数必须在关键字参数左边
 # test(1,y=2,3)#报错
 # test(1,3,y=2)#报错
 # test(1,3,z=2)
@@ -104,8 +101,8 @@ y->7
 # def install(func1=False,func2=True,func3=True):
 #     pass
 
-#参数组：**字典 *列表
-def test(x,*args):
+# 参数组：**字典 *列表
+def test(x, *args):
     print(x)
     print(args)
 
@@ -124,18 +121,11 @@ def test(x,*args):
 # test(1,1,2,2,2,2,2,y=2,z=3)
 # test(1,y=2,z=3,z=3)#会报错 ：一个参数不能传两个值
 
-def test(x,*args,**kwargs):
+def test(x, *args, **kwargs):
     print(x)
-    print(args,args[-1])
-    print(kwargs,kwargs.get('y'))
+    print(args, args[-1])
+    print(kwargs, kwargs.get('y'))
 # test(1,1,2,1,1,11,1,x=1,y=2,z=3) #报错
 # test(1,1,2,1,1,11,1,y=2,z=3)
 
 # test(1,*[1,2,3],**{'y':1})
-
-
-
-
-
-
-

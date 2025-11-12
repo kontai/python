@@ -1,6 +1,3 @@
-
-
-
 # x='hello'
 # # print(dir(x))
 # iter_test=x.__iter__()
@@ -30,7 +27,7 @@
 # for i in l:
 #     print(i)
 
-s={1,2,3}
+s = {1, 2, 3}
 
 # for i in s:
 #     print(i)
@@ -60,10 +57,12 @@ s={1,2,3}
 #         # print('迭代完毕了,循环终止了')
 #         break
 
-l=['die','erzi','sunzi','chongsunzi']
+l = ['die', 'erzi', 'sunzi', 'chongsunzi']
 
-iter_l=l.__iter__()
+iter_l = l.__iter__()
 print(iter_l)
+
+
 # print(iter_l.__next__())
 # print(iter_l.__next__())
 # print(iter_l.__next__())
@@ -72,39 +71,33 @@ print(iter_l)
 # print(next(iter_l)) #next()---->iter_l.__next__()
 
 
-
-
-
-
-
-
-
-
 def test():
     yield 1
     yield 2
     yield 3
-g=test()
-print('来自函数',g)
+
+
+g = test()
+print('来自函数', g)
 # print(g.__next__())
 # print(g.__next__())
 
-#三元表达式
+# 三元表达式
 # name='alex'
 # name='linhaifeng'
 # res='SB' if name == 'alex' else '帅哥'
 # print(res)
 
-#把列表解析的[]換成()，得到的就是生成器表達式。
-#列表解析與生成器表達式都是一種便利的編程方式，只不過生成器表達式更節省內存。
+# 把列表解析的[]換成()，得到的就是生成器表達式。
+# 列表解析與生成器表達式都是一種便利的編程方式，只不過生成器表達式更節省內存。
 
-#列表解析
+# 列表解析
 # egg_list=[]
 # for i in range(10):
 #     egg_list.append('鸡蛋%s' %i)
 # print(egg_list)
 
-l=['鸡蛋%s' %i for i in range(10)]
+l = ['鸡蛋%s' % i for i in range(10)]
 # l1=['鸡蛋%s' %i for i in range(10) if i > 5 ]
 # # l1=['鸡蛋%s' %i for i in range(10) if i > 5 else i] #没有四元表达式
 # l2=['鸡蛋%s' %i for i in range(10) if i < 5] #没有四元表达式
@@ -113,7 +106,7 @@ print(l)
 # print(l1)
 # print(l2)
 
-laomuji=('鸡蛋%s' %i for i in range(10)) #生成器表达式
+laomuji = ('鸡蛋%s' % i for i in range(10))  # 生成器表达式
 print(laomuji)
 print(laomuji.__next__())
 print(laomuji.__next__())
@@ -127,10 +120,9 @@ print(next(laomuji))
 print(next(laomuji))
 # print(next(laomuji))
 
-l=[1,2,3,34]
+l = [1, 2, 3, 34]
 # map(func,l)
 
 # print(sum(l))
 # print(sum())
 # print(sum(i for i in range(10000000000000)))
-

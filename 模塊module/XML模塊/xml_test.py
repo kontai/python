@@ -17,8 +17,6 @@
 #         print(j.text)
 
 
-
-
 # # 遍历xml文档
 # for child in root:
 #     print(child.tag, child.attrib)
@@ -53,6 +51,7 @@
 
 
 import xml.etree.ElementTree as ET
+
 #
 # new_xml = ET.Element("namelist")
 #
@@ -65,8 +64,7 @@ import xml.etree.ElementTree as ET
 # age.text = '19'
 
 
-
 et = ET.ElementTree('new_xml')  # 生成文档对象
 et.write("test2.xml", encoding="utf-8", xml_declaration=True)
 
-#ET.dump(new_xml)  # 打印生成的格式
+# ET.dump(new_xml)  # 打印生成的格式

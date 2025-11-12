@@ -15,7 +15,7 @@ class spam:
     printNumInstance = staticmethod(printNumInstance)
 
 
-#子類集成定制靜態方法
+# 子類集成定制靜態方法
 class sub(spam):
     def printNumInstance():
         print("Extra stuff...")
@@ -24,7 +24,7 @@ class sub(spam):
     printNumInstance = staticmethod(printNumInstance)
 
 
-#類可以繼承靜態方法而不用重新定義他把，他可以沒有一個實例而運行，不管定義於類樹的何處
+# 類可以繼承靜態方法而不用重新定義他把，他可以沒有一個實例而運行，不管定義於類樹的何處
 class other(spam): pass
 
 

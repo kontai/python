@@ -1,5 +1,3 @@
-
-
 import sys
 # print(sys.argv)
 #
@@ -13,9 +11,8 @@ import sys
 #     pass
 
 import time
+
 for i in range(100):
     sys.stdout.write("#")
     time.sleep(0.1)
     sys.stdout.flush()
-
-

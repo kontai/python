@@ -12,14 +12,17 @@
 # print(Chinese.country)
 
 class Chinese:
-    country='China'
-    l=['a','b']
-    def __init__(self,name):
-        self.name=name
+    country = 'China'
+    l = ['a', 'b']
 
-    def play_ball(self,ball):
-        print('%s 正在打 %s' %(self.name,ball))
-p1=Chinese('alex')
+    def __init__(self, name):
+        self.name = name
+
+    def play_ball(self, ball):
+        print('%s 正在打 %s' % (self.name, ball))
+
+
+p1 = Chinese('alex')
 print(p1.l)
 # p1.l=[1,2,3]
 # print(Chinese.l)

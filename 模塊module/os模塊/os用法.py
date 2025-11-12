@@ -34,27 +34,27 @@ import time
 
 if __name__ == '__main__':
     print(os.stat("os用法.py"))
-    print('-'*30)
+    print('-' * 30)
 
-    print(os.sep,os.pathsep,os.name)
-    print('-'*30)
+    print(os.sep, os.pathsep, os.name)
+    print('-' * 30)
 
     os.system('dir')
     print(os.environ)
 
     print(os.path.abspath("os用法.py"))
-    print('-'*30)
+    print('-' * 30)
 
     print(os.path.split('D:\workspace\python\模塊module\os模塊\os用法.py'))
-    print('-'*30)
+    print('-' * 30)
 
     print(os.path.dirname('D:\workspace\python\模塊module\os模塊\os用法.py'))
-    print('-'*30)
+    print('-' * 30)
 
     print(os.path.basename('D:\workspace\python\模塊module\os模塊\os用法.py'))
-    print('-'*30)
+    print('-' * 30)
 
-    a='c:\\abc'
-    b='test.py'
-    print(os.path.join(a,b))
+    a = 'c:\\abc'
+    b = 'test.py'
+    print(os.path.join(a, b))
     print(os.path.getatime('os用法.py'))

@@ -23,7 +23,6 @@
 # # print(p1.country)
 
 
-
 # country='中国'
 # class Chinese:
 #     def __init__(self,name):
@@ -40,22 +39,24 @@
 # shi_li_hua()
 
 
+country = '中国－－－－－－－－－－－－－－－－－－－'
 
-country='中国－－－－－－－－－－－－－－－－－－－'
+
 class Chinese:
-    country='中国'
-    def __init__(self,name):
-        self.name=name
-        print('--->',country)
+    country = '中国'
 
-    def play_ball(self,ball):
-        print('%s 正在打 %s' %(self.name,ball))
+    def __init__(self, name):
+        self.name = name
+        print('--->', country)
+
+    def play_ball(self, ball):
+        print('%s 正在打 %s' % (self.name, ball))
+
 
 print(Chinese.__dict__)
 print(Chinese.country)
-p1=Chinese('alex')
+p1 = Chinese('alex')
 # print('实例--------》',p1.country)
-
 
 
 # Chinese.

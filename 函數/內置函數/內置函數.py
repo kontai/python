@@ -1,4 +1,3 @@
-
 # print(abs(-1))
 # print(abs(1))
 #
@@ -12,7 +11,7 @@
 
 # print(bin(3))
 
-#空，None，0的布尔值为False，其余都为True
+# 空，None，0的布尔值为False，其余都为True
 # print(bool(''))
 # print(bool(None))
 # print(bool(0))
@@ -36,7 +35,7 @@
 # dic_str=str(dic)
 # print(dic_str)
 
-#可hash的数据类型即不可变数据类型，不可hash的数据类型即可变数据类型
+# 可hash的数据类型即不可变数据类型，不可hash的数据类型即可变数据类型
 # print(hash('12sdfdsaf3123123sdfasdfasdfasdfasdfasdfasdfasdfasfasfdasdf'))
 # print(hash('12sdfdsaf31231asdfasdfsadfsadfasdfasdf23'))
 #
@@ -57,14 +56,13 @@
 # print(oct(12))#10进制->8进制
 
 
-
 # print(isinstance(1,int))
 # print(isinstance('abc',str))
 # print(isinstance([],list))
 # print(isinstance({},dict))
 # print(isinstance({1,2},set))
 
-name='哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈粥少陈'
+name = '哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈粥少陈'
 # print(globals())
 # print(__file__)
 #
@@ -97,7 +95,7 @@ name='哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈粥少陈'
 # print(min(l))
 
 
-age_dic={'alex_age':18,'wupei_age':20,'zsc_age':100,'lhf_age':30}
+age_dic = {'alex_age': 18, 'wupei_age': 20, 'zsc_age': 100, 'lhf_age': 30}
 
 # print(max(age_dic.values()))
 #
@@ -119,7 +117,6 @@ age_dic={'alex_age':18,'wupei_age':20,'zsc_age':100,'lhf_age':30}
 # l1=['a10','a2','a10'] #不同类型之间不能进行比较
 # print(list(max(l)))
 # print('--->',list(max(l1)))
-
 
 
 # l=[1,3,100,-1,2]
@@ -154,7 +151,6 @@ age_dic={'alex_age':18,'wupei_age':20,'zsc_age':100,'lhf_age':30}
 # print(pow(3,3,2))  #3**3%2
 
 
-
 # l=[1,2,3,4]
 # print(list(reversed(l)))
 # print(l)
@@ -173,7 +169,6 @@ age_dic={'alex_age':18,'wupei_age':20,'zsc_age':100,'lhf_age':30}
 # print(s2.start)
 # print(s2.stop)
 # print(s2.step)
-
 
 
 # l=[3,2,1,5,7]
@@ -224,11 +219,11 @@ age_dic={'alex_age':18,'wupei_age':20,'zsc_age':100,'lhf_age':30}
 # test()
 # print(vars(int))
 
-#import------>sys----->__import__()
+# import------>sys----->__import__()
 # import test
 # test.say_hi()
 
 # import 'test'#报错
-module_name='test'
-m=__import__(module_name)
+module_name = 'test'
+m = __import__(module_name)
 m.say_hi()

@@ -122,8 +122,9 @@ def func(x, y=0):
     func(x, y)
     x += y
     return x
+
+
 num = 1
 result = func(num)
 print(num)
 print(result)
-

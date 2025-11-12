@@ -32,15 +32,18 @@
 # foo()
 
 import time
+
+
 def foo():
     time.sleep(3)
     print('来自foo')
 
-#不修改foo源代码
-#不修改foo调用方式
+
+# 不修改foo源代码
+# 不修改foo调用方式
 
 
-#多运行了一次，不合格
+# 多运行了一次，不合格
 # def timer(func):
 #     start_time=time.time()
 #     func()
@@ -51,12 +54,13 @@ def foo():
 # foo()
 
 
-#没有修改被修饰函数的源代码，也没有修改被修饰函数的调用方式，但是也没有为被修饰函数添加新功能
+# 没有修改被修饰函数的源代码，也没有修改被修饰函数的调用方式，但是也没有为被修饰函数添加新功能
 def timer(func):
-    start_time=time.time()
+    start_time = time.time()
     return func
     stop_time = time.time()
-    print('函数运行时间是  %s' % (stop_time-start_time))
+    print('函数运行时间是  %s' % (stop_time - start_time))
 
-foo=timer(foo)
+
+foo = timer(foo)
 foo()

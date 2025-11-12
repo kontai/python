@@ -24,14 +24,13 @@ obj = re.compile('\d{3}')
 ret = obj.search('abc123eeee')
 print(ret.group())  # 123
 
-
 ret = re.finditer('\d', 'ds3sy4784a')
 print(ret)  # <callable_iterator object at 0x10195f940>
 
 print(next(ret).group())
 print(next(ret).group())
 
-#注意
+# 注意
 import re
 
 ret = re.findall('www.(baidu|oldboy).com', 'www.oldboy.com')

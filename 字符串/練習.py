@@ -7,7 +7,7 @@ print(name.startswith('al'))
 # 3)    判断 name 变量对应的值是否以 "X" 结尾,并输出结果 
 print(name.endswith('X'))
 # 4)    将 name 变量对应的值中的 “l” 替换为 “p”,并输出结果
-print(name.replace('l','p'))
+print(name.replace('l', 'p'))
 # 5)    将 name 变量对应的值根据 “l” 分割,并输出结果。
 print(name.split('l'))
 print(name.partition('l'))

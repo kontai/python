@@ -26,9 +26,8 @@ def auth_log(func):
             else:
                 print("帳號或密碼錯誤")
 
-        print(acc,passw)
+        print(acc, passw)
         return func(*args, **kwargs)
-
 
     return wrap
 

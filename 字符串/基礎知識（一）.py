@@ -46,14 +46,14 @@ print("num = ",num,",alpha = ",alpha)
 q 或Q
 表示不再继续输入，将用户输入的内容以表格形式大隐
 '''
-template="{0}\t{1}\t{2}\n"
-s=""
+template = "{0}\t{1}\t{2}\n"
+s = ""
 while True:
-    v1=input(">=")
-    v2=input(">>")
-    v3=input(">>>")
-    s+=template.format(v1,v2,v3)
-    if(v1+v2+v3=='q'):
+    v1 = input(">=")
+    v2 = input(">>")
+    v3 = input(">>>")
+    s += template.format(v1, v2, v3)
+    if (v1 + v2 + v3 == 'q'):
         break
 print(s.expandtabs(20))
 print(s.rstrip('b'))

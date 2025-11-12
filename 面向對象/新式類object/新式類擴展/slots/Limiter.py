@@ -10,5 +10,4 @@ x = limiter()
 # print(x.age)    # Must assign before use
 x.age = 40
 print(x.age)
-print(x.__dict__)
 # x.ape=1000  # Illegal:not in__slots__

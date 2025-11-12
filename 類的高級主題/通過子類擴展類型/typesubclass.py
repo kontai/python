@@ -1,7 +1,7 @@
 #  Copyright (c) 2019.
 #  typesubclass.py
 #
-#Map 1..N to 0..N-1; call back to built-in version
+# Map 1..N to 0..N-1; call back to built-in version
 
 class MyList(list):
     def __getitem__(self, offset):

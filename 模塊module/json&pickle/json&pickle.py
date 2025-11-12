@@ -22,7 +22,6 @@
 # f.write(dic_str)    #json.dump(dic,f)
 
 
-
 # f_read=open("new_hello","r")
 # data=json.loads(f_read.read())      # data=json.load(f)
 
@@ -41,7 +40,7 @@
 # print(type(data))
 
 
-#注意：
+# 注意：
 # import json
 #
 # with open("Json_test","r") as f:
@@ -49,7 +48,7 @@
 #     data=json.loads(data)
 #     print(data["name"])
 
-#----------------------pickle-------
+# ----------------------pickle-------
 import pickle
 
 dic = {'name': 'alvin', 'age': 23, 'sex': 'male'}
@@ -83,10 +82,7 @@ f = shelve.open(r'shelve1')  # 目的：将一个字典放入文本 f={}
 
 print(f.get('stu1_info')['age'])
 
-
-
 # dic={}
 #
 # dic["name"]="alvin"
 # dic["info"]={"name":"alex"}
-

@@ -36,7 +36,6 @@ def listing(module, verbose=True):
 
 
 if __name__ == '__main__':
-
     # listing(mydir)                            # Self-test code: list myself
     import tkinter
 

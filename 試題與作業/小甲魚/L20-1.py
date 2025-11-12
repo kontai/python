@@ -5,12 +5,12 @@
 string_file = open("L20-string2.txt", "r")
 string = string_file.read()
 lenth = len(string)
-answer=""
+answer = ""
 for i in range(lenth):
     if (string[i].islower()):
         tmp = string[i - 3:i] + string[i + 1:i + 4]
-        if tmp.isupper() and tmp.isalpha() and len(tmp)==6:
-            answer+=string[i]
+        if tmp.isupper() and tmp.isalpha() and len(tmp) == 6:
+            answer += string[i]
 
 print(answer)
-#print(string[i],sep=' ')
+# print(string[i],sep=' ')
