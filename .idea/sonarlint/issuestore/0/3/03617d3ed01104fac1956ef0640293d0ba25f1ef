@@ -1,0 +1,6 @@
+
+qpython:S1542"MRename function "forLoop" to match the regular expression ^[a-z_][a-z0-9_]*$.(¥“øıÿÿÿÿ8ÁÚ§‘Ç1
+rpython:S1542"NRename function "listComp" to match the regular expression ^[a-z_][a-z0-9_]*$.(ıäõ¨øÿÿÿÿ8ÁÚ§‘Ç1
+kpython:S1542"MRename function "mapCall" to match the regular expression ^[a-z_][a-z0-9_]*$.(²’”O8ÂÚ§‘Ç1
+lpython:S1542"MRename function "genExpr" to match the regular expression ^[a-z_][a-z0-9_]*$.(µ›8ÂÚ§‘Ç1
+lpython:S1542"MRename function "genFunc" to match the regular expression ^[a-z_][a-z0-9_]*$.(”‡Ö÷8ÂÚ§‘Ç1

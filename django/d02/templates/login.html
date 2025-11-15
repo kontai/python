@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <script src="{% static 'jquery-2.6.0.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'bootstrap-4.6.2-dist/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap-4.6.2-dist/js/bootstrap.min.js' %}"></script>
+
+</head>
+<body>
+    <p class="text-center">Login Page</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <form action="{% url 'edit' %}" class="" method="post">
+                    <div>
+                        <label for="username">username<input type="text" name="username" id="username"
+                                                             class="form-control"></label>
+                    </div>
+                    <div>
+                        <label for="password">password<input type="password" name="password" id="password"
+                                                             class="form-control"></label>
+                    </div>
+                    <input type="submit" value="ok" class="btn  btn-success  ">
+                    {% block 'edit_area' %}
+                        <h2>這是login頁面</h2>
+                    {% endblock %}
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

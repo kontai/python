@@ -1,0 +1,8 @@
+
+Bpython:S125
+"Remove this commented out code.(™ÈËùıÿÿÿÿ8ö§²•È1
+qpython:S1542"MRename function "forLoop" to match the regular expression ^[a-z_][a-z0-9_]*$.(¥“øıÿÿÿÿ8ö§²•È1
+rpython:S1542"NRename function "listComp" to match the regular expression ^[a-z_][a-z0-9_]*$.(ıäõ¨øÿÿÿÿ8ö§²•È1
+kpython:S1542"MRename function "mapCall" to match the regular expression ^[a-z_][a-z0-9_]*$.(²’”O8÷§²•È1
+lpython:S1542 "MRename function "genExpr" to match the regular expression ^[a-z_][a-z0-9_]*$.(µ›8÷§²•È1
+lpython:S1542$"MRename function "genFunc" to match the regular expression ^[a-z_][a-z0-9_]*$.(”‡Ö÷8÷§²•È1
