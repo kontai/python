@@ -2,12 +2,13 @@
     import hashlib
      
     m=hashlib.md5()# m=hashlib.sha256()
+     
     m.update('hello'.encode('utf8'))
     print(m.hexdigest())  #5d41402abc4b2a76b9719d911017c592
      
-    m=hashlib.md5("加密".encode("utf8"))   ## 多一外殼 
-    m.update('hello'.encode('utf8'))
-    print(m.hexdigest())  #e4b67769fb4e20afa4b9af40b01c5b86
+    m.update('alvin'.encode('utf8'))
+     
+    print(m.hexdigest())  #92a7e713c30abbb0319fa07da2a5c4af
      
     m2=hashlib.md5()
     m2.update('helloalvin'.encode('utf8'))

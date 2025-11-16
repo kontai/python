@@ -16,5 +16,5 @@ class spam:
 
 if __name__ == "__main__":
     a, b = spam(), spam()
-    a.printNumInstance()  #Passes class to first argument
-    spam.printNumInstance()  #Also passes class to first argument
+    a.printNumInstance()  # Passes class to first argument
+    spam.printNumInstance()  # Also passes class to first argument

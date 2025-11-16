@@ -31,7 +31,7 @@ def reload_all(*args):
 
 if __name__ == '__main__':
     import reloadall
-    import os,tkinter
+    import os, tkinter
 
     reload_all(reloadall)
     # reload_all(os)

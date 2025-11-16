@@ -1,11 +1,11 @@
 import time
 
 # 1 time() :返回当前时间的时间戳
-print(time.time())  #時間戳(from 1970)
+print(time.time())  # 時間戳(from 1970)
 
 # 2 localtime([secs])
 # 将一个时间戳转换为当前时区的struct_time。secs参数未提供，则以当前时间为准。
-print(time.localtime()) #當地時間
+print(time.localtime())  # 當地時間
 print(time.localtime(time.time()))
 print(time.localtime(1000000000))
 
@@ -13,7 +13,7 @@ print(time.localtime(1000000000))
 # print(t.tm_year)
 
 # 3 gmtime([secs]) 和localtime()方法类似，gmtime()方法是将一个时间戳转换为UTC时区（0时区）的struct_time。
-print(time.gmtime())    #UTC
+print(time.gmtime())  # UTC
 
 # 4 mktime(t) : 将一个struct_time转化为时间戳。
 print(time.mktime(time.localtime()))

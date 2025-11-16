@@ -21,9 +21,6 @@ ch.addFilter(filter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
-
-
-
 logger.setLevel(logging.DEBUG)
 
 logger.debug('logger debug message')

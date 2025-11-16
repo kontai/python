@@ -9,7 +9,6 @@ while True:
     ...process x...
 '''
 
-
 # II
 '''
 x = True
@@ -19,7 +18,6 @@ while x:
         ...process x...
 '''
 
-
 # III
 '''
 x = next()
@@ -27,4 +25,3 @@ while x:
     ...process x...
     x = next()
 '''
-

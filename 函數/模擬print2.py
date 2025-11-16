@@ -1,5 +1,6 @@
 import sys
 
+
 def print30(*args, **kargs):
     sep = kargs.pop('sep', ' ')
     end = kargs.pop('end', '\n')

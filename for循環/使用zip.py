@@ -11,11 +11,10 @@ print('\nzip()用法：')
 for day, fruit, drink, dessert in zip(days, fruits, drinks, desserts):
     print(day, ": drink", drink, "- eat", fruit, "- enjoy", dessert)
 
-
 english = 'Monday', 'Tuesday', 'Wednesday'
 french = 'Lundi', 'Mardi', 'Mercredi'
 
 print('轉換成list包tuple')
-print(list( zip(english, french) ))
+print(list(zip(english, french)))
 print('轉換成Dictionarie')
-print(dict( zip(english, french) ))
+print(dict(zip(english, french)))

@@ -5,13 +5,12 @@ class School:
         self.course_list = []
 
     @staticmethod
-    def test(a,b):
-        print(a,b)
+    def test(a, b):
+        print(a, b)
 
     @property
     def test2(self):
         print(self.name)
-
 
 
 class Course:
@@ -20,7 +19,6 @@ class Course:
         self.price = price
         self.period = period
         self.WTF = WTF
-
 
 
 if __name__ == '__main__':
@@ -32,6 +30,6 @@ if __name__ == '__main__':
     print(c1.__dict__)
     print(c1.WTF.name)
 
-    s1.test(2,3)
-    School("abc","def").test(3,4)
+    s1.test(2, 3)
+    School("abc", "def").test(3, 4)
     s1.test2

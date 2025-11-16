@@ -16,8 +16,14 @@ if __name__ == '__main__':
     #     print("empty Except block")
 
     # 功能相似於空的except,但能夠避免系統退出相關所觸發的異常。
-    except Exception:
+    # except Exception:
+    #     print("Like empty Except block,but Ignore system break error")
+    except Exception as e:
+        # 捕獲異常訊息
         print("Like empty Except block,but Ignore system break error")
+        print("異常訊息:",e)
+
+
 
     # else當try未產生異常時執行
     else:
@@ -29,5 +35,3 @@ if __name__ == '__main__':
     #     ...no exception occurred...
     # except indexError:
     #     ...handle exception...
-
-

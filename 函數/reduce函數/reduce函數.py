@@ -23,7 +23,7 @@
 
 # def multi(x,y):
 #     return x*y
-#lambda x,y:x*y
+# lambda x,y:x*y
 
 # def reduce_test(func,array):
 #     res=array.pop(0)
@@ -33,22 +33,24 @@
 #
 # print(reduce_test(lambda x,y:x*y,num_l))
 
-num_l=[1,2,3,100]
-def reduce_test(func,array,init=None):
+num_l = [1, 2, 3, 100]
+
+
+def reduce_test(func, array, init=None):
     if init is None:
-        res=array.pop(0)
+        res = array.pop(0)
     else:
-        res=init
+        res = init
     for num in array:
-        res=func(res,num)
+        res = func(res, num)
     return res
 
-print(reduce_test(lambda x,y:x*y,num_l,100))
 
+print(reduce_test(lambda x, y: x * y, num_l, 100))
 
-#reduce函数
+# reduce函数
 from functools import reduce
-num_l=[1,2,3,100]
-print(reduce(lambda x,y:x+y,num_l,1))
-print(reduce(lambda x,y:x+y,num_l))
 
+num_l = [1, 2, 3, 100]
+print(reduce(lambda x, y: x + y, num_l, 1))
+print(reduce(lambda x, y: x + y, num_l))

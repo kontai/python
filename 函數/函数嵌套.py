@@ -12,10 +12,13 @@ def father(auth_type):
         # name='linhaifeng_1'
         # print('我的爸爸是%s' %name)
         def grandson():
-            print('我的爷爷是%s' %auth_type)
+            print('我的爷爷是%s' % auth_type)
+
         grandson()
+
     # print(locals())
     son()
+
+
 # father('linhaifeng')
 father('filedb')
-

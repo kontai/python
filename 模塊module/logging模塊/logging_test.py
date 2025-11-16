@@ -1,6 +1,6 @@
 import logging
 
-#-----------------------------------logging.basicConfig
+# -----------------------------------logging.basicConfig
 # logging.basicConfig(
 #     level=logging.DEBUG,
 #     filename="logger.log",
@@ -16,7 +16,7 @@ import logging
 # logging.error('error message')
 # logging.critical('critical message')
 
-#-----------------------------------logger
+# -----------------------------------logger
 # def logger():
 #     logger=logging.getLogger()
 #
@@ -42,11 +42,10 @@ import logging
 # logger.warning("warning")
 # logger.error("error")
 # logger.critical("critical")
-#--------------------------------------------------
+# --------------------------------------------------
 import logging
 
-logger=logging.getLogger()
-
+logger = logging.getLogger()
 
 logger1 = logging.getLogger('mylogger')
 logger1.setLevel(logging.DEBUG)
@@ -55,8 +54,8 @@ logger1.setLevel(logging.DEBUG)
 # logger2.setLevel(logging.WARNING)
 
 
-fh=logging.FileHandler("test_log-new")
-ch=logging.StreamHandler()
+fh = logging.FileHandler("test_log-new")
+ch = logging.StreamHandler()
 
 # logger.addHandler(ch)
 # logger.addHandler(fh)
@@ -85,12 +84,3 @@ logger1.addHandler(ch)
 # logger2.warning('logger2 warning message')
 # logger2.error('logger2 error message')
 # logger2.critical('logger2 critical message')
-
-
-
-
-
-
-
-
-

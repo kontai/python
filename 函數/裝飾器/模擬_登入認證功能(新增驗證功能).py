@@ -6,13 +6,16 @@ import time
 status = 0
 start_time = time.time()
 
+
 def auth(coding='utf8'):
-    if(coding=='utf8'):
+    if (coding == 'utf8'):
         print('Now conding=utf-8')
+
         def auth_log(func):
             file = open('abc.txt', 'r')
             auth_info = eval(file.read())
-            #print(auth_info)
+
+            # print(auth_info)
             def wrap(*args, **kwargs):
                 global status
 
@@ -27,20 +30,20 @@ def auth(coding='utf8'):
                     else:
                         print("帳號或密碼錯誤")
 
-                print(acc,passw)
+                print(acc, passw)
                 return func(*args, **kwargs)
 
-
             return wrap
+
         return auth_log
 
-    elif(coding=='GB5'):
+    elif (coding == 'GB5'):
         print('Now coding=GB5')
+
         def test(func):
             return func
+
         return test
-
-
 
 
 @auth(coding='utf8')

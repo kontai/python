@@ -14,6 +14,7 @@ def read_fun(*args):
                 print(obj)
             read_fun(attr)
 
+
 if __name__ == "__main__":
     import a
 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cover{
+            position: fixed;
+            top:0px;
+            bottom: 0px;
+            left:0px;
+            right: 0px;
+
+            background-color: rgba(0,0,0,0.5);
+            z-index: 99;
+        }
+        .modal{
+            background-color: white;
+            height: 200px;
+            width: 400px;
+            z-index: 100;
+
+            position: fixed;
+            top:50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -200px;
+            opacity: 0.5;
+            border: 0 solid black;
+
+        }
+        input:focus{
+            background-color: darkolivegreen;
+            color: yellow;
+        }
+        .modal:hover{
+            opacity: 1.0;
+            border-color: red;
+            border-width: 2px;
+            border-style: double;
+            border-spacing: revert;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>这是最底层的页面内容</div>
+<div class="cover"></div>
+<div class="modal">
+    <h1>登陆页面</h1>
+    <p>username:<input type="text"></p>
+    <p>password:<input type="text"></p>
+    <button>点我点我~~</button>
+</div>
+
+</body>
+</html>

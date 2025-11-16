@@ -4,17 +4,19 @@
 #   数都是相同的值4 。
 
 def makeActionsI():
-    acts=[]
+    acts = []
     for i in range(5):
-        acts.append(lambda x:i**x)
+        acts.append(lambda x: i ** x)
 
     return acts
 
-acts=makeActionsI()
+
+acts = makeActionsI()
 print(acts[0])
 print(acts[0](2))
 print(acts[2](2))
 print(acts[4](2))
+
 
 # 这是在嵌套作用域的值和默认参数方面遗留的一种仍需要解释清楚的情况 , 而不是引用
 #  所在的嵌套作用域的值。也就是说,为了让这类代码能够工作,必须使用默认参数把当
@@ -23,12 +25,13 @@ print(acts[4](2))
 
 
 def makeActionsII():
-    acts=[]
+    acts = []
     for i in range(5):
-        acts.append(lambda x,i=i:i**x) #******************
+        acts.append(lambda x, i=i: i ** x)  # ******************
     return acts
 
-acts2=makeActionsII()
+
+acts2 = makeActionsII()
 print(acts2[0])
 print(acts2[0](2))
 print(acts2[2](2))

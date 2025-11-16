@@ -14,13 +14,18 @@
 2.函数属性
 '''
 
+
 class Chinese:
     '这是一个中国人的类'
-    dang='共产党'
+    dang = '共产党'
+
     def sui_di_tu_tan():
         print('朝着墙上就是一口痰')
+
     def cha_dui(self):
         print('插到了前面')
+
+
 #
 # print(Chinese.dang)
 # Chinese.sui_di_tu_tan()
@@ -34,5 +39,3 @@ class Chinese:
 print(Chinese.__name__)
 print(Chinese.__doc__)
 print(Chinese.__module__)
-
-

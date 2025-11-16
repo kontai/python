@@ -1,7 +1,5 @@
-
 list1 = ['1.Just do it', '2.一切皆有可能', '3.讓邊程改變世界', '4.Impossible is Nothing']
 list2 = ['4.Adidas', '2.李寧', '3.Fish C', '1.Nike']
-
 
 '''
 將兩組list一以下格式儲存於list3

@@ -1,6 +1,6 @@
 import time, sys
 
-if sys.platform[:3]=="win":
+if sys.platform[:3] == "win":
     timefunc = time.clock
 else:
     timefunc = time.time
@@ -11,7 +11,7 @@ else:
 
 # def timer(func, *pargs, **kargs):
 #     _reps = kargs.pop("_reps", 1000)
-def timer(func,*pargs,_reps=1000,**kargs):  #using keyword-only (pythn3.0 up)
+def timer(func, *pargs, _reps=1000, **kargs):  # using keyword-only (pythn3.0 up)
     # trace(func, pargs, kargs, _reps)
     repslist = range(_reps)
     start = timefunc()
@@ -23,7 +23,7 @@ def timer(func,*pargs,_reps=1000,**kargs):  #using keyword-only (pythn3.0 up)
 
 # def best(func, *pargs, **kargs):
 #     _reps = kargs.pop("_reps", 50)
-def best(func, *pargs, _reps=50, **kargs):  #using keyword-only (pythn3.0 up)
+def best(func, *pargs, _reps=50, **kargs):  # using keyword-only (pythn3.0 up)
     best = 2 ** 32
     for i in range(_reps):
         (time, ret) = timer(func, *pargs, _reps=1, **kargs)

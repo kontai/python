@@ -1,0 +1,4 @@
+
+‡python:S101"dRename class "anotherDog" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ú±¡±şÿÿÿÿ8ş›ÔûË1
+jpython:S100"LRename method "clsMehod" to match the regular expression ^[a-z_][a-z0-9_]*$.(æÌ‘õ8ÿ›ÔûË1
+opython:S100	"QRename method "fakeClsMethod" to match the regular expression ^[a-z_][a-z0-9_]*$.(ªÔøï8ÿ›ÔûË1

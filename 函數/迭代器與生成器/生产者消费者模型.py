@@ -1,4 +1,6 @@
 import time
+
+
 # def producer():
 #     ret=[]
 #     for i in range(100):
@@ -15,10 +17,8 @@ import time
 # consumer(res)
 
 
-
-
-#yield 3相当于return 控制的是函数的返回值
-#x=yield的另外一个特性，接受send传过来的值,赋值给x
+# yield 3相当于return 控制的是函数的返回值
+# x=yield的另外一个特性，接受send传过来的值,赋值给x
 # def test():
 #     print('开始啦')
 #     firt=yield #return 1   first=None
@@ -35,9 +35,6 @@ import time
 # print(res)
 
 
-
-
-
 # def producer():
 #     ret=[]
 #     for i in range(100):
@@ -46,21 +43,22 @@ import time
 #     return ret
 
 def consumer(name):
-    print('我是[%s],我准备开始吃包子了' %name)
+    print('我是[%s],我准备开始吃包子了' % name)
     while True:
-        baozi=yield
+        baozi = yield
         time.sleep(1)
-        print('%s 很开心的把【%s】吃掉了' %(name,baozi))
+        print('%s 很开心的把【%s】吃掉了' % (name, baozi))
+
 
 def producer():
-    c1=consumer('wupeiqi')
-    c2=consumer('yuanhao_SB')
+    c1 = consumer('wupeiqi')
+    c2 = consumer('yuanhao_SB')
     c1.__next__()
     c2.__next__()
     for i in range(10):
         time.sleep(1)
-        c1.send('包子 %s' %i)
-        c2.send('包子 %s' %i)
+        c1.send('包子 %s' % i)
+        c2.send('包子 %s' % i)
+
+
 producer()
-
-

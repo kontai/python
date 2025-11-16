@@ -22,6 +22,6 @@
 
 import re
 import sys
-print(sys.path)
-print(re.findall(r"123","1234214"))  #['123']
 
+print(sys.path)
+print(re.findall(r"123", "1234214"))  # ['123']

@@ -1,5 +1,6 @@
 import os
 import time
+
 print(os.getcwd())
 os.chdir('..')
 print(os.getcwd())
@@ -12,4 +13,3 @@ print(os.getcwd())
 #         os.makedirs(DIR+'\\'+ DIR+str(i)+'\\'+DIR+str(j))
 #         print(DIR+'\\'+ DIR+str(i)+'\\'+DIR+str(j)+'    ok!')
 #         #time.sleep(2)
-

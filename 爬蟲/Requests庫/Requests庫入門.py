@@ -3,7 +3,8 @@
 #
 
 import requests
-r=requests.get("http://www.yahoo.com.tw")
+
+r = requests.get("http://www.yahoo.com.tw")
 print(r.status_code)
 print(r.encoding)
 print(r.apparent_encoding)

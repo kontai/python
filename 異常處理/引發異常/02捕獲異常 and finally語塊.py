@@ -13,6 +13,7 @@ def catcher():
     finally:
         print("after fetch")
 
+
 # 如果發生異常，此語句將不會執行
 print("continuing")
 
