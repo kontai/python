@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51a79ae6-3713-428d-855c-d86952f795c5" name="Changes" comment="LP6-1116" />
+    <list default="true" id="51a79ae6-3713-428d-855c-d86952f795c5" name="Changes" comment="LP6-1116">
+      <change afterPath="$PROJECT_DIR$/數據科學/Numpy/01array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/數據科學/Numpy/02數組結構.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2f2a06c-955d-48e6-870c-6d9855a1e26e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +53,12 @@
     &quot;assignee&quot;: &quot;kontai&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kontai/python&quot;,
-    &quot;accountId&quot;: &quot;70cecafc-4d49-49d5-9bdd-d3cd4a2f3de9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kontai/python.git",
+    "accountId": "6d76ea5f-182b-4c3d-bfcc-e6f11df8d0d9"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,65 +79,68 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.01手動觸發異常.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02捕獲異常 and finally語塊.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03異常攔截 except and try.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04-进程之间不共享全局变量.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_multiprocess.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_termivate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.anno.executor&quot;: &quot;Run&quot;,
-    &quot;Python.anno2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.compile_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cpuTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.falsk_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.foo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inter2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.intersect_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.muzip_mumap.executor&quot;: &quot;Run&quot;,
-    &quot;Python.myLock.executor&quot;: &quot;Run&quot;,
-    &quot;Python.print30.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recruise2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recurise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.t01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.t02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.timeseqs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.timeseqs2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.timeseqs3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tk_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unpack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.繼承.executor&quot;: &quot;Run&quot;,
-    &quot;Python.類屬性.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/python&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.01array.executor": "Run",
+    "Python.01手動觸發異常.executor": "Run",
+    "Python.02捕獲異常 and finally語塊.executor": "Run",
+    "Python.02數組結構.executor": "Run",
+    "Python.03異常攔截 except and try.executor": "Run",
+    "Python.04-进程之间不共享全局变量.executor": "Run",
+    "Python.1_multiprocess.executor": "Run",
+    "Python.2_termivate.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.anno.executor": "Run",
+    "Python.anno2.executor": "Run",
+    "Python.compile_demo.executor": "Run",
+    "Python.cpuTest.executor": "Run",
+    "Python.demo1.executor": "Run",
+    "Python.falsk_demo.executor": "Run",
+    "Python.foo.executor": "Run",
+    "Python.inter2.executor": "Run",
+    "Python.intersect_demo.executor": "Run",
+    "Python.muzip_mumap.executor": "Run",
+    "Python.myLock.executor": "Run",
+    "Python.print30.executor": "Run",
+    "Python.recruise2.executor": "Run",
+    "Python.recurise.executor": "Run",
+    "Python.sv.executor": "Run",
+    "Python.t01.executor": "Run",
+    "Python.t02.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.timeseqs.executor": "Run",
+    "Python.timeseqs2.executor": "Run",
+    "Python.timeseqs3.executor": "Run",
+    "Python.tk_demo.executor": "Run",
+    "Python.unpack.executor": "Run",
+    "Python.繼承.executor": "Run",
+    "Python.類屬性.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/workspace/python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="python" is-module-sdk="true">
@@ -300,6 +309,7 @@
       <workItem from="1762819848240" duration="697000" />
       <workItem from="1762820569437" duration="6530000" />
       <workItem from="1763258275995" duration="288000" />
+      <workItem from="1763258719780" duration="7602000" />
     </task>
     <task id="LOCAL-00001" summary="LP6-1021">
       <option name="closed" value="true" />
@@ -362,94 +372,95 @@
     <option name="LAST_COMMIT_MESSAGE" value="LP6-1116" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$file1.coverage" NAME="file1 Coverage Results" MODIFIED="1685258882374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230528" />
-    <SUITE FILE_PATH="coverage/python$client.coverage" NAME="client Coverage Results" MODIFIED="1668869338870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221119" />
-    <SUITE FILE_PATH="coverage/python$cpuTest.coverage" NAME="cpuTest Coverage Results" MODIFIED="1704162075457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/多進程" />
-    <SUITE FILE_PATH="coverage/python$log_demo1.coverage" NAME="log_demo1 Coverage Results" MODIFIED="1668321494508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113" />
-    <SUITE FILE_PATH="coverage/python$3.coverage" NAME="3 Coverage Results" MODIFIED="1686992542459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/裝飾器/bak" />
-    <SUITE FILE_PATH="coverage/python$anno2.coverage" NAME="anno2 Coverage Results" MODIFIED="1702519531019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函數/註解annotations" />
-    <SUITE FILE_PATH="coverage/python$sv.coverage" NAME="sv Coverage Results" MODIFIED="1704615559468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/static_web" />
-    <SUITE FILE_PATH="coverage/python$index.coverage" NAME="index Coverage Results" MODIFIED="1690303514949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230725" />
-    <SUITE FILE_PATH="coverage/python$foo.coverage" NAME="foo Coverage Results" MODIFIED="1705800528102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myProj" />
-    <SUITE FILE_PATH="coverage/python$classtree.coverage" NAME="classtree Coverage Results" MODIFIED="1668389505345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/類樹" />
-    <SUITE FILE_PATH="coverage/python$t01.coverage" NAME="t01 Coverage Results" MODIFIED="1705420748039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01/test01" />
-    <SUITE FILE_PATH="coverage/python$01_yield.coverage" NAME="01-利用yield Coverage Results" MODIFIED="1670343990888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/並行處理/多進程/協程" />
-    <SUITE FILE_PATH="coverage/python$falsk_demo.coverage" NAME="falsk_demo Coverage Results" MODIFIED="1705735369225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/python$ntp_client.coverage" NAME="ntp_client Coverage Results" MODIFIED="1668907732737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221120" />
-    <SUITE FILE_PATH="coverage/python$config_demo2.coverage" NAME="config_demo2 Coverage Results" MODIFIED="1668326533125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/config" />
-    <SUITE FILE_PATH="coverage/python$socket.coverage" NAME="多線程socket服務端 Coverage Results" MODIFIED="1687595905746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/網路/套接字socket" />
-    <SUITE FILE_PATH="coverage/python$02__1_.coverage" NAME="02 (1) Coverage Results" MODIFIED="1690302841542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230725" />
-    <SUITE FILE_PATH="coverage/python$server.coverage" NAME="server Coverage Results" MODIFIED="1668869333987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221119" />
-    <SUITE FILE_PATH="coverage/python$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1687656207807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230625" />
-    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1703942258552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myProj" />
-    <SUITE FILE_PATH="coverage/python$1_multiprocess.coverage" NAME="1_multiprocess Coverage Results" MODIFIED="1704155356307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocess" />
-    <SUITE FILE_PATH="coverage/python$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1686707059011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承/demo" />
-    <SUITE FILE_PATH="coverage/python$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1668615744731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221116" />
-    <SUITE FILE_PATH="coverage/python$Demo1.coverage" NAME="Demo1 Coverage Results" MODIFIED="1668594209150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221116" />
-    <SUITE FILE_PATH="coverage/python$t02.coverage" NAME="t02 Coverage Results" MODIFIED="1705422823448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01/test01" />
-    <SUITE FILE_PATH="coverage/python$my_max.coverage" NAME="my_max Coverage Results" MODIFIED="1685585220264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230601" />
-    <SUITE FILE_PATH="coverage/python$01__2_.coverage" NAME="01 (2) Coverage Results" MODIFIED="1690104442783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230723" />
-    <SUITE FILE_PATH="coverage/python$02.coverage" NAME="02 Coverage Results" MODIFIED="1690389861606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230726" />
-    <SUITE FILE_PATH="coverage/python$unpack.coverage" NAME="unpack Coverage Results" MODIFIED="1702341498972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/cch16" />
-    <SUITE FILE_PATH="coverage/python$prop.coverage" NAME="prop Coverage Results" MODIFIED="1668334560942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/claz" />
-    <SUITE FILE_PATH="coverage/python$pickle_demo.coverage" NAME="pickle_demo Coverage Results" MODIFIED="1686387595426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230610" />
-    <SUITE FILE_PATH="coverage/python$mro_1.coverage" NAME="mro_1 Coverage Results" MODIFIED="1686535778450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承/demo" />
-    <SUITE FILE_PATH="coverage/python$print30.coverage" NAME="print30 Coverage Results" MODIFIED="1702485814085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
-    <SUITE FILE_PATH="coverage/python$speed.coverage" NAME="speed Coverage Results" MODIFIED="1684853827365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/python$tests.coverage" NAME="tests Coverage Results" MODIFIED="1700667540747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01" />
-    <SUITE FILE_PATH="coverage/python$day1.coverage" NAME="day1 Coverage Results" MODIFIED="1672571239151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/數據庫/MYSQL" />
-    <SUITE FILE_PATH="coverage/python$timeseqs3.coverage" NAME="timeseqs3 Coverage Results" MODIFIED="1702722880645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch20" />
-    <SUITE FILE_PATH="coverage/python$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1668616503747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221116" />
-    <SUITE FILE_PATH="coverage/python$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1687656890301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230625" />
-    <SUITE FILE_PATH="coverage/python$low.coverage" NAME="low比解决关联的方法 Coverage Results" MODIFIED="1668388414911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承" />
-    <SUITE FILE_PATH="coverage/python$03.coverage" NAME="03 Coverage Results" MODIFIED="1690303656552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230725" />
-    <SUITE FILE_PATH="coverage/python$config_demo1.coverage" NAME="config_demo1 Coverage Results" MODIFIED="1668325118208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/config" />
-    <SUITE FILE_PATH="coverage/python$super.coverage" NAME="super方法的使用 Coverage Results" MODIFIED="1668388741862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承" />
-    <SUITE FILE_PATH="coverage/python$anno.coverage" NAME="anno Coverage Results" MODIFIED="1702519130904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函數/註解annotations" />
-    <SUITE FILE_PATH="coverage/python$03_except_and_try.coverage" NAME="03異常攔截 except and try Coverage Results" MODIFIED="1704064334841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/異常處理/引發異常" />
-    <SUITE FILE_PATH="coverage/python$clinet01.coverage" NAME="clinet01 Coverage Results" MODIFIED="1687936296974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230628" />
-    <SUITE FILE_PATH="coverage/python$compile_demo.coverage" NAME="compile_demo Coverage Results" MODIFIED="1703933767497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/demo" />
-    <SUITE FILE_PATH="coverage/python$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1690387163500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230726" />
-    <SUITE FILE_PATH="coverage/python$dic01.coverage" NAME="dic01 Coverage Results" MODIFIED="1700434470180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/python學習手冊/L8" />
-    <SUITE FILE_PATH="coverage/python$avoid_valiable_change.coverage" NAME="avoid_valiable_change Coverage Results" MODIFIED="1686392785473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/python學習手冊/L18" />
-    <SUITE FILE_PATH="coverage/python$socket__1_.coverage" NAME="socket客戶端 (1) Coverage Results" MODIFIED="1687595910146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/網路/套接字socket" />
-    <SUITE FILE_PATH="coverage/python$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1704332483505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/socket套接字" />
-    <SUITE FILE_PATH="coverage/python$md_abbc.coverage" NAME="md_abbc Coverage Results" MODIFIED="1686794682020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230615" />
-    <SUITE FILE_PATH="coverage/python$01.coverage" NAME="01手動觸發異常 Coverage Results" MODIFIED="1704062993845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/異常處理/引發異常" />
-    <SUITE FILE_PATH="coverage/python$04.coverage" NAME="04 Coverage Results" MODIFIED="1688778176400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230710" />
-    <SUITE FILE_PATH="coverage/python$sprocess01.coverage" NAME="sprocess01 Coverage Results" MODIFIED="1687604393840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230624" />
-    <SUITE FILE_PATH="coverage/python$b.coverage" NAME="b Coverage Results" MODIFIED="1668329726289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/Demo1" />
-    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1686982889919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/反射/demo" />
-    <SUITE FILE_PATH="coverage/python$inter2.coverage" NAME="inter2 Coverage Results" MODIFIED="1702428273053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
-    <SUITE FILE_PATH="coverage/python$timeseqs2.coverage" NAME="timeseqs2 Coverage Results" MODIFIED="1702722402933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch20" />
-    <SUITE FILE_PATH="coverage/python$04_.coverage" NAME="04-进程之间不共享全局变量 Coverage Results" MODIFIED="1704157810353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocess多進程/H馬" />
-    <SUITE FILE_PATH="coverage/python$server01.coverage" NAME="server01 Coverage Results" MODIFIED="1687936264624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230628" />
-    <SUITE FILE_PATH="coverage/python$trace.coverage" NAME="trace Coverage Results" MODIFIED="1668389907705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/類的設計/OOP和委託_包裝對象" />
-    <SUITE FILE_PATH="coverage/python$ntp_server.coverage" NAME="ntp_server Coverage Results" MODIFIED="1668907727353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221120" />
-    <SUITE FILE_PATH="coverage/python$elapse_time.coverage" NAME="elapse_time Coverage Results" MODIFIED="1684980747937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/python$cal.coverage" NAME="cal Coverage Results" MODIFIED="1668267538492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/20221112" />
-    <SUITE FILE_PATH="coverage/python$muzip_mumap.coverage" NAME="muzip_mumap Coverage Results" MODIFIED="1702707744046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch19" />
-    <SUITE FILE_PATH="coverage/python$property.coverage" NAME="property补充 Coverage Results" MODIFIED="1668615935234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/運算符重載/描述符" />
-    <SUITE FILE_PATH="coverage/python$2_termivate.coverage" NAME="2_termivate Coverage Results" MODIFIED="1704155435339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocess" />
-    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2 Coverage Results" MODIFIED="1686992140513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/裝飾器/bak" />
-    <SUITE FILE_PATH="coverage/python$timeseqs.coverage" NAME="timeseqs Coverage Results" MODIFIED="1702722232613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch20" />
-    <SUITE FILE_PATH="coverage/python$test_while.coverage" NAME="test_while Coverage Results" MODIFIED="1700705568926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01" />
-    <SUITE FILE_PATH="coverage/python$intersect_demo.coverage" NAME="intersect_demo Coverage Results" MODIFIED="1702214349578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/cch16" />
-    <SUITE FILE_PATH="coverage/python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1702428689626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
-    <SUITE FILE_PATH="coverage/python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1686543487750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt" />
-    <SUITE FILE_PATH="coverage/python$tk_demo.coverage" NAME="tk_demo Coverage Results" MODIFIED="1702606009434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch19" />
-    <SUITE FILE_PATH="coverage/python$02_greenlet.coverage" NAME="02-greenlet Coverage Results" MODIFIED="1670344142749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/並行處理/多進程/協程" />
-    <SUITE FILE_PATH="coverage/python$json_demo.coverage" NAME="json_demo Coverage Results" MODIFIED="1686385696173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230610" />
-    <SUITE FILE_PATH="coverage/python$myLock.coverage" NAME="myLock Coverage Results" MODIFIED="1704243368475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/並行處理/lock" />
-    <SUITE FILE_PATH="coverage/python$models.coverage" NAME="models Coverage Results" MODIFIED="1673682685621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/demo20230114/mysite/book" />
-    <SUITE FILE_PATH="coverage/python$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1668865274078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221119" />
-    <SUITE FILE_PATH="coverage/python$recruise2.coverage" NAME="recruise2 Coverage Results" MODIFIED="1702488527069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
-    <SUITE FILE_PATH="coverage/python$rename.coverage" NAME="rename Coverage Results" MODIFIED="1693184027435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230827" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="類屬性 Coverage Results" MODIFIED="1704019186072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myProj" />
-    <SUITE FILE_PATH="coverage/python$number.coverage" NAME="number Coverage Results" MODIFIED="1686450486689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/python學習手冊/L5" />
-    <SUITE FILE_PATH="coverage/python$02_and_finally.coverage" NAME="02捕獲異常 and finally語塊 Coverage Results" MODIFIED="1704063164054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/異常處理/引發異常" />
     <SUITE FILE_PATH="coverage/python$udp_client2.coverage" NAME="udp_client2 Coverage Results" MODIFIED="1687656097421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230625" />
+    <SUITE FILE_PATH="coverage/python$cal.coverage" NAME="cal Coverage Results" MODIFIED="1668267538492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/20221112" />
+    <SUITE FILE_PATH="coverage/python$02.coverage" NAME="02數組結構 Coverage Results" MODIFIED="1763278428777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/數據科學/Numpy" />
+    <SUITE FILE_PATH="coverage/python$dic01.coverage" NAME="dic01 Coverage Results" MODIFIED="1700434470180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/python學習手冊/L8" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="類屬性 Coverage Results" MODIFIED="1704019186072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myProj" />
+    <SUITE FILE_PATH="coverage/python$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1687656207807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230625" />
+    <SUITE FILE_PATH="coverage/python$test_while.coverage" NAME="test_while Coverage Results" MODIFIED="1700705568926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01" />
+    <SUITE FILE_PATH="coverage/python$myLock.coverage" NAME="myLock Coverage Results" MODIFIED="1704243368475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/並行處理/lock" />
+    <SUITE FILE_PATH="coverage/python$01_yield.coverage" NAME="01-利用yield Coverage Results" MODIFIED="1670343990888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/並行處理/多進程/協程" />
+    <SUITE FILE_PATH="coverage/python$timeseqs3.coverage" NAME="timeseqs3 Coverage Results" MODIFIED="1702722880645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch20" />
+    <SUITE FILE_PATH="coverage/python$trace.coverage" NAME="trace Coverage Results" MODIFIED="1668389907705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/類的設計/OOP和委託_包裝對象" />
+    <SUITE FILE_PATH="coverage/python$Demo1.coverage" NAME="Demo1 Coverage Results" MODIFIED="1668594209150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221116" />
+    <SUITE FILE_PATH="coverage/python$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1668615744731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221116" />
+    <SUITE FILE_PATH="coverage/python$3.coverage" NAME="3 Coverage Results" MODIFIED="1686992542459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/裝飾器/bak" />
+    <SUITE FILE_PATH="coverage/python$t01.coverage" NAME="t01 Coverage Results" MODIFIED="1705420748039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01/test01" />
+    <SUITE FILE_PATH="coverage/python$intersect_demo.coverage" NAME="intersect_demo Coverage Results" MODIFIED="1702214349578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/cch16" />
+    <SUITE FILE_PATH="coverage/python$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1686707059011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承/demo" />
+    <SUITE FILE_PATH="coverage/python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1686543487750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chatgpt" />
+    <SUITE FILE_PATH="coverage/python$falsk_demo.coverage" NAME="falsk_demo Coverage Results" MODIFIED="1705735369225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/python$02_greenlet.coverage" NAME="02-greenlet Coverage Results" MODIFIED="1670344142749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/並行處理/多進程/協程" />
+    <SUITE FILE_PATH="coverage/python$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1668865274078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221119" />
+    <SUITE FILE_PATH="coverage/python$socket.coverage" NAME="多線程socket服務端 Coverage Results" MODIFIED="1687595905746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/網路/套接字socket" />
+    <SUITE FILE_PATH="coverage/python$ntp_server.coverage" NAME="ntp_server Coverage Results" MODIFIED="1668907727353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221120" />
+    <SUITE FILE_PATH="coverage/python$04_.coverage" NAME="04-进程之间不共享全局变量 Coverage Results" MODIFIED="1704157810353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocess多進程/H馬" />
+    <SUITE FILE_PATH="coverage/python$elapse_time.coverage" NAME="elapse_time Coverage Results" MODIFIED="1684980747937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/python$rename.coverage" NAME="rename Coverage Results" MODIFIED="1693184027435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230827" />
+    <SUITE FILE_PATH="coverage/python$json_demo.coverage" NAME="json_demo Coverage Results" MODIFIED="1686385696173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230610" />
+    <SUITE FILE_PATH="coverage/python$b.coverage" NAME="b Coverage Results" MODIFIED="1668329726289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/Demo1" />
+    <SUITE FILE_PATH="coverage/python$timeseqs2.coverage" NAME="timeseqs2 Coverage Results" MODIFIED="1702722402933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch20" />
+    <SUITE FILE_PATH="coverage/python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1702428689626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
+    <SUITE FILE_PATH="coverage/python$index.coverage" NAME="index Coverage Results" MODIFIED="1690303514949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230725" />
+    <SUITE FILE_PATH="coverage/python$2_termivate.coverage" NAME="2_termivate Coverage Results" MODIFIED="1704155435339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocess" />
+    <SUITE FILE_PATH="coverage/python$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1704332483505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/socket套接字" />
+    <SUITE FILE_PATH="coverage/python$models.coverage" NAME="models Coverage Results" MODIFIED="1673682685621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/demo20230114/mysite/book" />
+    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2 Coverage Results" MODIFIED="1686992140513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/裝飾器/bak" />
+    <SUITE FILE_PATH="coverage/python$recruise2.coverage" NAME="recruise2 Coverage Results" MODIFIED="1702488527069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
+    <SUITE FILE_PATH="coverage/python$t02.coverage" NAME="t02 Coverage Results" MODIFIED="1705422823448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01/test01" />
+    <SUITE FILE_PATH="coverage/python$classtree.coverage" NAME="classtree Coverage Results" MODIFIED="1668389505345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/類樹" />
+    <SUITE FILE_PATH="coverage/python$04.coverage" NAME="04 Coverage Results" MODIFIED="1688778176400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230710" />
+    <SUITE FILE_PATH="coverage/python$clinet01.coverage" NAME="clinet01 Coverage Results" MODIFIED="1687936296974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230628" />
+    <SUITE FILE_PATH="coverage/python$02_and_finally.coverage" NAME="02捕獲異常 and finally語塊 Coverage Results" MODIFIED="1704063164054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/異常處理/引發異常" />
+    <SUITE FILE_PATH="coverage/python$ntp_client.coverage" NAME="ntp_client Coverage Results" MODIFIED="1668907732737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221120" />
+    <SUITE FILE_PATH="coverage/python$anno2.coverage" NAME="anno2 Coverage Results" MODIFIED="1702519531019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函數/註解annotations" />
+    <SUITE FILE_PATH="coverage/python$file1.coverage" NAME="file1 Coverage Results" MODIFIED="1685258882374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230528" />
+    <SUITE FILE_PATH="coverage/python$config_demo1.coverage" NAME="config_demo1 Coverage Results" MODIFIED="1668325118208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/config" />
+    <SUITE FILE_PATH="coverage/python$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1668616503747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221116" />
+    <SUITE FILE_PATH="coverage/python$01array.coverage" NAME="01array Coverage Results" MODIFIED="1763274703073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/數據科學/Numpy" />
+    <SUITE FILE_PATH="coverage/python$avoid_valiable_change.coverage" NAME="avoid_valiable_change Coverage Results" MODIFIED="1686392785473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/python學習手冊/L18" />
+    <SUITE FILE_PATH="coverage/python$log_demo1.coverage" NAME="log_demo1 Coverage Results" MODIFIED="1668321494508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113" />
+    <SUITE FILE_PATH="coverage/python$print30.coverage" NAME="print30 Coverage Results" MODIFIED="1702485814085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
+    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1686982889919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/反射/demo" />
+    <SUITE FILE_PATH="coverage/python$low.coverage" NAME="low比解决关联的方法 Coverage Results" MODIFIED="1668388414911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承" />
+    <SUITE FILE_PATH="coverage/python$number.coverage" NAME="number Coverage Results" MODIFIED="1686450486689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/python學習手冊/L5" />
+    <SUITE FILE_PATH="coverage/python$03.coverage" NAME="03 Coverage Results" MODIFIED="1690303656552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230725" />
+    <SUITE FILE_PATH="coverage/python$md_abbc.coverage" NAME="md_abbc Coverage Results" MODIFIED="1686794682020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230615" />
+    <SUITE FILE_PATH="coverage/python$server01.coverage" NAME="server01 Coverage Results" MODIFIED="1687936264624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230628" />
+    <SUITE FILE_PATH="coverage/python$sprocess01.coverage" NAME="sprocess01 Coverage Results" MODIFIED="1687604393840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230624" />
+    <SUITE FILE_PATH="coverage/python$01__2_.coverage" NAME="01 (2) Coverage Results" MODIFIED="1690104442783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230723" />
+    <SUITE FILE_PATH="coverage/python$sv.coverage" NAME="sv Coverage Results" MODIFIED="1704615559468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/static_web" />
+    <SUITE FILE_PATH="coverage/python$02__1_.coverage" NAME="02 (1) Coverage Results" MODIFIED="1690302841542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230725" />
+    <SUITE FILE_PATH="coverage/python$prop.coverage" NAME="prop Coverage Results" MODIFIED="1668334560942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/claz" />
+    <SUITE FILE_PATH="coverage/python$compile_demo.coverage" NAME="compile_demo Coverage Results" MODIFIED="1703933767497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/demo" />
     <SUITE FILE_PATH="coverage/python$recurise.coverage" NAME="recurise Coverage Results" MODIFIED="1702487746699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
+    <SUITE FILE_PATH="coverage/python$01.coverage" NAME="01手動觸發異常 Coverage Results" MODIFIED="1704062993845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/異常處理/引發異常" />
+    <SUITE FILE_PATH="coverage/python$1_multiprocess.coverage" NAME="1_multiprocess Coverage Results" MODIFIED="1704155356307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocess" />
+    <SUITE FILE_PATH="coverage/python$mro_1.coverage" NAME="mro_1 Coverage Results" MODIFIED="1686535778450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承/demo" />
+    <SUITE FILE_PATH="coverage/python$tests.coverage" NAME="tests Coverage Results" MODIFIED="1700667540747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/app01" />
+    <SUITE FILE_PATH="coverage/python$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1687656890301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230625" />
+    <SUITE FILE_PATH="coverage/python$muzip_mumap.coverage" NAME="muzip_mumap Coverage Results" MODIFIED="1702707744046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch19" />
+    <SUITE FILE_PATH="coverage/python$timeseqs.coverage" NAME="timeseqs Coverage Results" MODIFIED="1702722232613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch20" />
+    <SUITE FILE_PATH="coverage/python$config_demo2.coverage" NAME="config_demo2 Coverage Results" MODIFIED="1668326533125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221113/config" />
+    <SUITE FILE_PATH="coverage/python$super.coverage" NAME="super方法的使用 Coverage Results" MODIFIED="1668388741862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/繼承" />
+    <SUITE FILE_PATH="coverage/python$property.coverage" NAME="property补充 Coverage Results" MODIFIED="1668615935234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向對象/運算符重載/描述符" />
+    <SUITE FILE_PATH="coverage/python$my_max.coverage" NAME="my_max Coverage Results" MODIFIED="1685585220264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230601" />
+    <SUITE FILE_PATH="coverage/python$server.coverage" NAME="server Coverage Results" MODIFIED="1668869333987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221119" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1703942258552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myProj" />
+    <SUITE FILE_PATH="coverage/python$inter2.coverage" NAME="inter2 Coverage Results" MODIFIED="1702428273053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch18" />
+    <SUITE FILE_PATH="coverage/python$tk_demo.coverage" NAME="tk_demo Coverage Results" MODIFIED="1702606009434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/ch19" />
+    <SUITE FILE_PATH="coverage/python$unpack.coverage" NAME="unpack Coverage Results" MODIFIED="1702341498972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/LearnPython/cch16" />
+    <SUITE FILE_PATH="coverage/python$03_except_and_try.coverage" NAME="03異常攔截 except and try Coverage Results" MODIFIED="1704064334841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/異常處理/引發異常" />
+    <SUITE FILE_PATH="coverage/python$cpuTest.coverage" NAME="cpuTest Coverage Results" MODIFIED="1704162075457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/多進程" />
+    <SUITE FILE_PATH="coverage/python$speed.coverage" NAME="speed Coverage Results" MODIFIED="1684853827365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/python$day1.coverage" NAME="day1 Coverage Results" MODIFIED="1672571239151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/數據庫/MYSQL" />
+    <SUITE FILE_PATH="coverage/python$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1690387163500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230726" />
+    <SUITE FILE_PATH="coverage/python$socket__1_.coverage" NAME="socket客戶端 (1) Coverage Results" MODIFIED="1687595910146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/網路/套接字socket" />
+    <SUITE FILE_PATH="coverage/python$anno.coverage" NAME="anno Coverage Results" MODIFIED="1702519130904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函數/註解annotations" />
+    <SUITE FILE_PATH="coverage/python$foo.coverage" NAME="foo Coverage Results" MODIFIED="1705800528102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myProj" />
+    <SUITE FILE_PATH="coverage/python$pickle_demo.coverage" NAME="pickle_demo Coverage Results" MODIFIED="1686387595426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/20230610" />
+    <SUITE FILE_PATH="coverage/python$client.coverage" NAME="client Coverage Results" MODIFIED="1668869338870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/練習/Demo20221119" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
