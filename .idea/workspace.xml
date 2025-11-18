@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51a79ae6-3713-428d-855c-d86952f795c5" name="Changes" comment="LP6-1116">
-      <change afterPath="$PROJECT_DIR$/數據科學/Numpy/01array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/數據科學/Numpy/02數組結構.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2f2a06c-955d-48e6-870c-6d9855a1e26e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="51a79ae6-3713-428d-855c-d86952f795c5" name="Changes" comment="LP6-1116" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,8 +49,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/kontai/python.git",
-    "accountId": "6d76ea5f-182b-4c3d-bfcc-e6f11df8d0d9"
+    "url": "https://github.com/kontai/python",
+    "accountId": "70cecafc-4d49-49d5-9bdd-d3cd4a2f3de9"
   }
 }]]></component>
   <component name="MarkdownSettingsMigration">
@@ -79,68 +73,68 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.01array.executor": "Run",
-    "Python.01手動觸發異常.executor": "Run",
-    "Python.02捕獲異常 and finally語塊.executor": "Run",
-    "Python.02數組結構.executor": "Run",
-    "Python.03異常攔截 except and try.executor": "Run",
-    "Python.04-进程之间不共享全局变量.executor": "Run",
-    "Python.1_multiprocess.executor": "Run",
-    "Python.2_termivate.executor": "Run",
-    "Python.Main.executor": "Run",
-    "Python.anno.executor": "Run",
-    "Python.anno2.executor": "Run",
-    "Python.compile_demo.executor": "Run",
-    "Python.cpuTest.executor": "Run",
-    "Python.demo1.executor": "Run",
-    "Python.falsk_demo.executor": "Run",
-    "Python.foo.executor": "Run",
-    "Python.inter2.executor": "Run",
-    "Python.intersect_demo.executor": "Run",
-    "Python.muzip_mumap.executor": "Run",
-    "Python.myLock.executor": "Run",
-    "Python.print30.executor": "Run",
-    "Python.recruise2.executor": "Run",
-    "Python.recurise.executor": "Run",
-    "Python.sv.executor": "Run",
-    "Python.t01.executor": "Run",
-    "Python.t02.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.timeseqs.executor": "Run",
-    "Python.timeseqs2.executor": "Run",
-    "Python.timeseqs3.executor": "Run",
-    "Python.tk_demo.executor": "Run",
-    "Python.unpack.executor": "Run",
-    "Python.繼承.executor": "Run",
-    "Python.類屬性.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/workspace/python",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.01array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01手動觸發異常.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02捕獲異常 and finally語塊.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02數組結構.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03異常攔截 except and try.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-进程之间不共享全局变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_multiprocess.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_termivate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.anno.executor&quot;: &quot;Run&quot;,
+    &quot;Python.anno2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.compile_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cpuTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.falsk_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.foo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inter2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intersect_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.muzip_mumap.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myLock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print30.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recruise2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recurise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.timeseqs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.timeseqs2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.timeseqs3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unpack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.繼承.executor&quot;: &quot;Run&quot;,
+    &quot;Python.類屬性.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="python" is-module-sdk="true">
@@ -310,6 +304,7 @@
       <workItem from="1762820569437" duration="6530000" />
       <workItem from="1763258275995" duration="288000" />
       <workItem from="1763258719780" duration="7602000" />
+      <workItem from="1763490036953" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="LP6-1021">
       <option name="closed" value="true" />
