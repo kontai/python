@@ -8,3 +8,5 @@ obj = hashlib.md5()
 obj.update("adminroot".encode("utf8"))
 print(obj.hexdigest())  # 4b3626865dc6d5cfe1c60b855e68634a
 #   4b3626865dc6d5cfe1c60b855e68634a
+
+
