@@ -25,12 +25,13 @@ menu = {
 }
 
 path = []
-
 while True:
     temp = {}
     print("當前所在")
     for num, i in enumerate(menu):
         temp[num] = i
         print(num, i)
+        print(menu[i])
+
 
     break

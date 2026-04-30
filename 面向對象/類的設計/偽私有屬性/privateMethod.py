@@ -6,7 +6,7 @@
 # 以確保該方法不會受到樹中的其他名稱的干擾，特別是在多繼承的環境中。
 
 class Super:
-    def mehtod(self): print("In Super class..")
+    def method(self): print("In Super class..")
 
 
 class Tool:
@@ -25,7 +25,7 @@ class Sub2(Tool):
 
 if __name__ == '__main__':
     A = Sub1()
-    # A.action()
+    A.action()
 
     B = Sub2()
     B.other()
