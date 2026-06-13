@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38ab94e5-6f87-4566-b268-aaae0aa1711b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/uvDemo/文件讀寫/exercise/get_weather_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvDemo/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/uvDemo/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvDemo/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uvDemo/uv.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../for循環/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../for循環/使用zip.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +118,8 @@
       <workItem from="1779293495395" duration="433000" />
       <workItem from="1779665791211" duration="1592000" />
       <workItem from="1779674415028" duration="2000" />
+      <workItem from="1780933883426" duration="209000" />
+      <workItem from="1780934222096" duration="619000" />
     </task>
     <servers />
   </component>
